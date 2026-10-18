@@ -18,7 +18,7 @@ export default async function Report({ params }: { params: Promise<{ slug: strin
   return (
     <div className="max-w-3xl mx-auto px-4 md:px-8 py-8">
       <Link href="/reports" className="text-sm text-accent">← All reports</Link>
-      <article className="prose prose-sm md:prose-base dark:prose-invert max-w-none mt-4 prose-table:block prose-table:overflow-x-auto prose-a:text-accent">
+      <article className="prose prose-sm md:prose-base dark:prose-invert max-w-none mt-4 prose-table:block prose-table:overflow-x-auto prose-a:text-accent prose-headings:font-display prose-headings:font-medium prose-headings:tracking-tight prose-th:text-xs prose-th:uppercase prose-th:tracking-wider">
         <ReactMarkdown
           remarkPlugins={[remarkGfm]}
           components={{

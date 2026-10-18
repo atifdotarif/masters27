@@ -10,19 +10,20 @@ const scholarshipDeadlines: Deadline[] = scholarships
 
 export default function Timeline() {
   return (
-    <Page title="Timeline" intro="Both tracks month by month, from now until you fly. The countdown lists update automatically.">
+    <Page eyebrow="Plan" title="Timeline" intro="Both tracks month by month, from now until you fly. The countdown lists update automatically.">
       <Card title="Your plan's deadlines"><Deadlines /></Card>
       <Card title={`Scholarship deadlines (high and medium fit, ${scholarshipDeadlines.length})`}><Deadlines items={scholarshipDeadlines} /></Card>
       <Card title="Month by month">
-        <div className="space-y-3">
-          {timeline.map((t) => (
-            <div key={t.month} className="grid md:grid-cols-[9rem_1fr_1fr] gap-2 md:gap-4 border-b border-line pb-3 last:border-0">
-              <div className="font-semibold text-sm">{t.month}</div>
-              <div className="text-sm"><span className="text-xs font-medium text-sky-700 dark:text-sky-400 block">Germany</span>{t.germany || "—"}</div>
-              <div className="text-sm"><span className="text-xs font-medium text-emerald-700 dark:text-emerald-400 block">Erasmus Mundus</span>{t.erasmus || "—"}</div>
-            </div>
-          ))}
+        <div className="hidden md:grid grid-cols-[9rem_1fr_1fr] gap-6 pb-2 border-b border-fg/70 text-[11px] font-semibold uppercase tracking-[0.1em] text-muted">
+          <div>Month</div><div>Germany</div><div>Erasmus Mundus</div>
         </div>
+        {timeline.map((t) => (
+          <div key={t.month} className="grid md:grid-cols-[9rem_1fr_1fr] gap-2 md:gap-6 border-b border-line py-4">
+            <div className="font-display text-lg font-medium leading-tight">{t.month}</div>
+            <div className="text-[14.5px] leading-relaxed"><span className="md:hidden text-[11px] uppercase tracking-[0.1em] text-muted block">Germany</span>{t.germany || <span className="text-muted">—</span>}</div>
+            <div className="text-[14.5px] leading-relaxed"><span className="md:hidden text-[11px] uppercase tracking-[0.1em] text-muted block">Erasmus</span>{t.erasmus || <span className="text-muted">—</span>}</div>
+          </div>
+        ))}
       </Card>
     </Page>
   );

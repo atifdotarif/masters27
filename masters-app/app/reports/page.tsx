@@ -4,7 +4,7 @@ import { Page, Card } from "@/components/ui";
 
 export default function Reports() {
   return (
-    <Page title="Full reports" intro="The complete written reports with every source link. They're read from the reports/ folder, so edits there show up here.">
+    <Page eyebrow="Research" title="Full reports" intro="The complete written reports with every source link. They're read from the reports/ folder, so edits there show up here.">
       <div className="grid md:grid-cols-3 gap-4">
         {reports.map((r) => (
           <Link key={r.slug} href={`/reports/${r.slug}`}>

@@ -21,8 +21,8 @@ export default function Checklist() {
   const all = Object.values(checklist).flat();
   const count = all.filter((i) => done[i]).length;
   return (
-    <Page title="Checklist" intro={`Tick items as you finish them. Progress is saved in this browser. ${count} of ${all.length} done.`}>
-      <div className="h-2 bg-line rounded-full overflow-hidden">
+    <Page eyebrow="Plan" title="Checklist" intro={`Tick items as you finish them. Progress is saved in this browser. ${count} of ${all.length} done.`}>
+      <div className="h-1 bg-line rounded-full overflow-hidden">
         <div className="h-full bg-accent transition-all" style={{ width: `${(count / all.length) * 100}%` }} />
       </div>
       <div className="grid md:grid-cols-2 gap-4">

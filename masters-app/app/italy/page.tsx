@@ -4,7 +4,7 @@ import Deadlines from "@/components/Deadlines";
 
 export default function Italy() {
   return (
-    <Page
+    <Page eyebrow="For a friend"
       title="Italy: master's guide"
       intro="A general guide for a Pakistani CS/AI graduate. Italy is one of the cheapest places in Europe to study, thanks to the need-based DSU grant. The catches are showing visa money up front and a weaker English-only job market."
     >

@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { universities, ruledOut } from "@/lib/data";
-import { Page, Card, Badge, Table } from "@/components/ui";
+import { Page, Card, Badge, Table, Meter } from "@/components/ui";
 
 const moiTone = { yes: "green", partial: "amber", likely: "amber" } as const;
 const moiLabel = { yes: "MOI accepted", partial: "MOI partial", likely: "MOI likely" } as const;
@@ -11,7 +11,7 @@ export default function Universities() {
   const [moiOnly, setMoiOnly] = useState(false);
   const list = universities.filter((u) => (!hubOnly || u.jobs >= 3) && (!moiOnly || u.moi === "yes"));
   return (
-    <Page
+    <Page eyebrow="Route 02 · Germany"
       title="German universities"
       intro="Tuition-free (or close), English-taught, accepts your FAST MOI letter, no GRE. Ranked by fit, nearby job market and how early the deadline is (earlier is better for the visa)."
     >
@@ -29,16 +29,16 @@ export default function Universities() {
         {list.map((u) => (
           <Card key={u.name}>
             <div className="flex items-start gap-3">
-              <span className="text-2xl font-semibold text-accent leading-none">{u.rank}</span>
+              <span className="font-display text-3xl font-medium text-muted leading-none tabular-nums">{u.rank}</span>
               <div className="min-w-0">
-                <h2 className="font-semibold">{u.name}</h2>
+                <h2 className="font-display text-xl font-medium tracking-tight">{u.name}</h2>
                 <p className="text-sm">{u.programme}</p>
                 <p className="text-xs text-muted">{u.city}</p>
               </div>
             </div>
             <div className="flex flex-wrap gap-2 mt-3">
               <Badge tone={moiTone[u.moi]}>{moiLabel[u.moi]}</Badge>
-              <Badge tone="blue">Jobs {"★".repeat(u.jobs)}{"☆".repeat(5 - u.jobs)}</Badge>
+              <Meter value={u.jobs} label="Job market" />
             </div>
             <dl className="text-sm mt-3 space-y-1">
               <div><dt className="inline text-muted">Deadline: </dt><dd className="inline font-medium">{u.deadline}</dd></div>
@@ -46,8 +46,8 @@ export default function Universities() {
               <div><dt className="inline text-muted">Fees: </dt><dd className="inline">{u.fee}</dd></div>
             </dl>
             <div className="grid sm:grid-cols-2 gap-3 mt-3 text-sm">
-              <ul className="space-y-1">{u.pros.map((p) => <li key={p} className="text-emerald-700 dark:text-emerald-400">+ {p}</li>)}</ul>
-              <ul className="space-y-1">{u.cons.map((c) => <li key={c} className="text-rose-700 dark:text-rose-400">− {c}</li>)}</ul>
+              <ul className="space-y-1">{u.pros.map((p) => <li key={p} className="text-good">+ {p}</li>)}</ul>
+              <ul className="space-y-1">{u.cons.map((c) => <li key={c} className="text-bad">− {c}</li>)}</ul>
             </div>
             <a href={u.url} target="_blank" rel="noreferrer" className="text-sm text-accent mt-3 inline-block">Official page ↗</a>
           </Card>

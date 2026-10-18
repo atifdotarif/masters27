@@ -2,23 +2,31 @@
 @plugin "@tailwindcss/typography";
 
 :root {
-  --bg: #f7f7f5;
-  --card: #ffffff;
-  --text: #1c1c1a;
-  --muted: #6b6b66;
-  --border: #e4e4df;
-  --accent: #1f6f5c;
-  --accent-soft: #e3f1ec;
+  --bg: #f5f2ec;
+  --card: #fbfaf7;
+  --text: #1d1b18;
+  --muted: #6e6960;
+  --border: #e3ded4;
+  --accent: #a3412a;
+  --accent-soft: #f1e4dc;
+  --good: #3d6b4f;
+  --warn: #9a6b14;
+  --bad: #a23b2a;
+  --info: #35577f;
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #141413;
-    --card: #1e1e1c;
-    --text: #ececea;
-    --muted: #a3a39d;
-    --border: #2f2f2c;
-    --accent: #5fbf9f;
-    --accent-soft: #1d332c;
+    --bg: #141312;
+    --card: #1b1a18;
+    --text: #ece9e2;
+    --muted: #9d978c;
+    --border: #2d2a26;
+    --accent: #e07c5c;
+    --accent-soft: #2c1f1a;
+    --good: #7fb492;
+    --warn: #d9a64e;
+    --bad: #e2836f;
+    --info: #8fb0d8;
   }
 }
 @theme inline {
@@ -29,9 +37,32 @@
   --color-line: var(--border);
   --color-accent: var(--accent);
   --color-accent-soft: var(--accent-soft);
+  --color-good: var(--good);
+  --color-warn: var(--warn);
+  --color-bad: var(--bad);
+  --color-info: var(--info);
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-fraunces), Georgia, serif;
+}
+html {
+  -webkit-font-smoothing: antialiased;
 }
 body {
   background: var(--bg);
   color: var(--text);
-  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-family: var(--font-sans);
+  font-feature-settings: "ss01", "cv11";
+}
+::selection {
+  background: var(--accent-soft);
+  color: var(--text);
+}
+a {
+  text-underline-offset: 3px;
+}
+summary::-webkit-details-marker {
+  display: none;
+}
+input[type="checkbox"] {
+  accent-color: var(--accent);
 }

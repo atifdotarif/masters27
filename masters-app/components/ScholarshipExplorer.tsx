@@ -68,26 +68,25 @@ export default function ScholarshipExplorer({ items, sources, initialSource = "A
         <span className="text-muted">{list.length} shown</span>
       </div>
 
-      <div className="space-y-3">
+      <div className="border-t border-fg/70">
         {list.map((s) => (
-          <details key={s.id} className="bg-card border border-line rounded-xl p-4 group">
-            <summary className="cursor-pointer list-none">
-              <div className="flex flex-wrap items-center gap-2">
-                <span className="text-accent group-open:rotate-90 transition-transform">▸</span>
-                <span className="font-medium">{s.name}</span>
-                <Badge tone={fitTone[s.fit]}>{s.fit} fit</Badge>
-                <Badge tone={statusTone[s.status]}>{s.status}</Badge>
-                {moiStatus(s) === "yes" && <Badge tone="green">MOI ok</Badge>}
-                {moiStatus(s) === "maybe" && <Badge tone="amber">MOI maybe</Badge>}
+          <details key={s.id} className="border-b border-line py-5 group">
+            <summary className="cursor-pointer list-none grid grid-cols-[1fr_auto] gap-4">
+              <div className="min-w-0">
+                <div className="font-display text-lg md:text-xl font-medium tracking-tight leading-snug group-hover:text-accent transition-colors">{s.name}</div>
+                <div className="flex flex-wrap items-center gap-x-4 gap-y-1 mt-1.5">
+                  <Badge tone={fitTone[s.fit]}>{s.fit} fit</Badge>
+                  <Badge tone={statusTone[s.status]}>{s.status}</Badge>
+                  {moiStatus(s) === "yes" && <Badge tone="green">MOI ok</Badge>}
+                  {moiStatus(s) === "maybe" && <Badge tone="amber">MOI maybe</Badge>}
+                  <span className="text-xs text-muted">{s.country} · {s.source}</span>
+                </div>
+                <div className="text-[13px] font-medium mt-2">Deadline: {s.deadline}</div>
+                <p className="text-[14px] text-muted leading-relaxed mt-1.5 max-w-3xl">{s.fitReason}</p>
               </div>
-              <div className="text-xs text-muted mt-1 pl-5 flex flex-wrap gap-x-3">
-                <span>{s.country}</span>
-                <span>{s.source}</span>
-                <span className="font-medium text-fg">Deadline: {s.deadline}</span>
-              </div>
-              <p className="text-sm mt-1.5 pl-5">{s.fitReason}</p>
+              <span className="font-display text-2xl leading-none text-muted group-open:rotate-45 transition-transform select-none" aria-hidden>+</span>
             </summary>
-            <div className="mt-3 pl-5 grid md:grid-cols-2 gap-x-6 gap-y-2 text-sm">
+            <div className="mt-5 grid md:grid-cols-2 gap-x-8 gap-y-3 text-[14px] leading-relaxed bg-card border border-line rounded-lg p-5">
               <Field k="Host" v={s.host} />
               <Field k="Coverage" v={s.coverage} />
               <Field k="Amount" v={s.amount} />
@@ -98,12 +97,12 @@ export default function ScholarshipExplorer({ items, sources, initialSource = "A
               <Field k="Bond / obligation" v={s.bond} />
             </div>
             {s.steps.length > 0 && (
-              <div className="mt-3 pl-5">
-                <div className="text-xs text-muted mb-1">How to apply</div>
+              <div className="mt-4">
+                <div className="text-[11px] font-semibold uppercase tracking-[0.12em] text-muted mb-2">How to apply</div>
                 <ol className="list-decimal pl-5 text-sm space-y-1">{s.steps.map((st, i) => <li key={i}>{st}</li>)}</ol>
               </div>
             )}
-            <div className="mt-3 pl-5 flex items-center gap-3">
+            <div className="mt-4 flex items-center gap-4">
               <a href={s.url} target="_blank" rel="noreferrer" className="text-sm text-accent">Official page ↗</a>
               <Verified ok={s.verified} />
             </div>
@@ -117,7 +116,7 @@ export default function ScholarshipExplorer({ items, sources, initialSource = "A
 function Field({ k, v }: { k: string; v: string }) {
   return (
     <div>
-      <div className="text-xs text-muted">{k}</div>
+      <div className="text-[10.5px] font-semibold uppercase tracking-[0.12em] text-muted mb-0.5">{k}</div>
       <div>{v}</div>
     </div>
   );

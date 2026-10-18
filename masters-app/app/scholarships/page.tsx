@@ -5,7 +5,7 @@ import ScholarshipExplorer from "@/components/ScholarshipExplorer";
 export default function Scholarships() {
   const high = scholarships.filter((s) => s.fit === "high").length;
   return (
-    <Page
+    <Page eyebrow="Research"
       title="All scholarships"
       intro={`${scholarships.length} scholarships and funded programmes researched across Europe, the Gulf, Asia and global/Pakistani funders. ${high} are rated a high fit for your profile. Click any one for eligibility, English rules, bonds and the exact application steps.`}
     >

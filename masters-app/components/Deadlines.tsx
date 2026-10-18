@@ -5,34 +5,49 @@ import { Badge } from "./ui";
 
 const trackTone: Record<Track, string> = { Germany: "blue", Erasmus: "green", Ireland: "amber", Italy: "red", Scholarship: "gray", Docs: "gray" };
 
-export default function Deadlines({ limit, items = deadlines }: { limit?: number; items?: Deadline[] }) {
+const end = (d: string) => new Date(d + "T23:59:59");
+
+export function useNow() {
   const [now, setNow] = useState<Date | null>(null);
   useEffect(() => setNow(new Date()), []);
+  return now;
+}
+
+export function upcoming(items: Deadline[], now: Date | null) {
   const sorted = [...items].sort((a, b) => a.date.localeCompare(b.date));
-  const upcoming = now ? sorted.filter((d) => new Date(d.date + "T23:59:59") >= now) : sorted;
-  const list = limit ? upcoming.slice(0, limit) : upcoming;
+  return now ? sorted.filter((d) => end(d.date) >= now) : sorted;
+}
+
+export function daysLeft(date: string, now: Date | null) {
+  return now ? Math.ceil((end(date).getTime() - now.getTime()) / 86400000) : null;
+}
+
+export default function Deadlines({ limit, items = deadlines }: { limit?: number; items?: Deadline[] }) {
+  const now = useNow();
+  const list = upcoming(items, now).slice(0, limit ?? Infinity);
   return (
-    <ul className="divide-y divide-line">
+    <ol className="border-t border-line">
       {list.map((d) => {
-        const days = now ? Math.ceil((new Date(d.date + "T23:59:59").getTime() - now.getTime()) / 86400000) : null;
+        const days = daysLeft(d.date, now);
+        const soon = days !== null && days <= 30;
         return (
-          <li key={d.date + d.title} className="py-2.5 flex gap-3 items-start">
-            <div className="w-14 shrink-0 text-right">
-              <div className={`text-lg font-semibold leading-none ${days !== null && days <= 30 ? "text-rose-600 dark:text-rose-400" : ""}`}>{days ?? "–"}</div>
-              <div className="text-[11px] text-muted">days</div>
+          <li key={d.date + d.title} className="grid grid-cols-[4.5rem_1fr] gap-4 py-3.5 border-b border-line">
+            <div className="text-right">
+              <div className={`font-display text-[1.7rem] leading-none font-medium tabular-nums ${soon ? "text-accent" : ""}`}>{days ?? "–"}</div>
+              <div className="text-[10.5px] uppercase tracking-[0.12em] text-muted mt-1">days</div>
             </div>
             <div className="min-w-0">
-              <div className="text-sm font-medium">{d.title}</div>
-              <div className="text-xs text-muted mt-0.5 flex flex-wrap gap-2 items-center">
-                <span>{new Date(d.date).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" })}</span>
+              <div className="text-[14.5px] font-medium leading-snug">{d.title}</div>
+              <div className="text-[13px] text-muted mt-1 flex flex-wrap gap-x-3 gap-y-1 items-center">
+                <span className="tabular-nums">{new Date(d.date).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" })}</span>
                 <Badge tone={trackTone[d.track]}>{d.track}</Badge>
-                {!d.verified && <Badge tone="amber">date unverified</Badge>}
-                <span>{d.note}</span>
+                {!d.verified && <span className="italic">date unconfirmed</span>}
               </div>
+              {d.note && <div className="text-[13px] text-muted mt-0.5">{d.note}</div>}
             </div>
           </li>
         );
       })}
-    </ul>
+    </ol>
   );
 }

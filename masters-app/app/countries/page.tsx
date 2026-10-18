@@ -6,7 +6,7 @@ const label = { best: "Top pick", good: "Good", weak: "Weak fit", out: "Ruled ou
 
 export default function Countries() {
   return (
-    <Page
+    <Page eyebrow="Research"
       title="Country selection"
       intro="Countries were scored on budget fit, scholarships, post-study work rights, English-only jobs, savings and visa risk for Pakistanis. After your budget update (PKR 45–55 lakh) and the no-IELTS decision, Germany became the main plan."
     >

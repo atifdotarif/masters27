@@ -9,18 +9,18 @@ export default function Erasmus() {
   const active = erasmus.filter((e) => e.status !== "drop");
   const dropped = erasmus.filter((e) => e.status === "drop");
   return (
-    <Page
+    <Page eyebrow="Route 01 · Free extra shot"
       title="Erasmus Mundus (Plan A)"
       intro="Fully funded: tuition + insurance + €1,400/month for up to 24 months, with no bond requiring you to return home. Odds are low (DEAI gave ~25 scholarships from ~3,000 applicants), so it's a free extra shot alongside Germany, not a replacement."
     >
-      <Link href="/erasmus/steps" className="block bg-accent-soft text-accent rounded-xl px-5 py-3 font-medium">
+      <Link href="/erasmus/steps" className="block border-l-2 border-accent pl-4 py-1 text-[15px] text-accent font-medium hover:underline">
         Exact application steps (DEAI manual, MAIA, visas for Belgium/Spain) + all 22 Erasmus Mundus programmes checked →
       </Link>
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
         {active.map((e) => (
           <Card key={e.name}>
             <div className="flex items-center justify-between gap-2">
-              <h2 className="font-semibold text-lg">{e.name}</h2>
+              <h2 className="font-display text-xl font-medium tracking-tight">{e.name}</h2>
               <Badge tone={tone[e.status]}>{label[e.status]}</Badge>
             </div>
             <p className="text-sm text-muted">{e.full}</p>
