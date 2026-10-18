@@ -12,7 +12,7 @@ export const profile = {
   constraints: ["English only", "No IELTS (use FAST MOI letter)", "No GRE"],
 };
 
-export type Track = "Germany" | "Erasmus" | "Ireland" | "Italy" | "Docs";
+export type Track = "Germany" | "Erasmus" | "Ireland" | "Italy" | "Scholarship" | "Docs";
 
 export type Deadline = {
   date: string; // ISO
@@ -27,6 +27,10 @@ export const deadlines: Deadline[] = [
   { date: "2026-12-15", title: "Submit DEAI (early, for the missing-file check)", track: "Erasmus", note: "Self-imposed target", verified: false },
   { date: "2027-01-11", title: "DEAI deadline, 12:00 GMT (5 PM PKT)", track: "Erasmus", note: "Strict. No fee.", verified: true },
   { date: "2027-01-18", title: "DEAI reference letters due", track: "Erasmus", note: "Referees upload them themselves", verified: true },
+  { date: "2026-11-30", title: "ETH Zurich ESOP scholarship (long shot: top-10% rank)", track: "Scholarship", note: "MOI accepted with official confirmation", verified: true },
+  { date: "2027-01-15", title: "Stipendium Hungaricum via HEC + DreamApply (expected)", track: "Scholarship", note: "Fully funded Hungary; many universities accept MOI", verified: false },
+  { date: "2027-02-02", title: "IPCVai Erasmus Mundus (opens 1 Nov)", track: "Erasmus", note: "MOI accepted; computer vision + AI", verified: true },
+  { date: "2027-03-31", title: "Aga Khan Foundation scholarship (expected)", track: "Scholarship", note: "50% grant / 50% loan; tops up a Germany budget", verified: false },
   { date: "2027-02-28", title: "MAIA scholarship round closes (tentative)", track: "Erasmus", note: "Exact date not posted yet; check weekly from Nov", verified: false },
   { date: "2027-03-15", title: "Würzburg MSc AI & Extended Reality", track: "Germany", note: "Earliest German deadline on the list", verified: false },
   { date: "2027-03-12", title: "Ireland GOI-IES scholarship (expected)", track: "Ireland", note: "Needs an Irish university offer first", verified: false },
@@ -217,8 +221,9 @@ export type Emjm = {
 
 export const erasmus: Emjm[] = [
   { name: "DEAI", full: "Data Engineering & Artificial Intelligence", status: "keep", route: "ULB Brussels → UPC Barcelona → TU Wien / Padua / Lyon 1 → thesis", deadline: "11 Jan 2027, 12:00 GMT (refs 18 Jan)", english: "MOI accepted · PTE 59 · no Duolingo", why: "No GRE, no fee. Scored on CS credits, grades, work experience, cover letter and references. ~25 scholarships from ~3,000 applicants." },
-  { name: "MAIA", full: "Medical Image Analysis", status: "add", route: "Girona (ES) · Bourgogne (FR) · Cassino (IT)", deadline: "Tentatively Nov 2026 – Feb 2027", english: "MOI accepted", why: "2027 scholarships confirmed. A direct match for your retinal-imaging final-year project.", url: "https://maiamaster.udg.edu/admission/faqs/" },
-  { name: "IFRoS", full: "Intelligent Field Robotic Systems", status: "maybe", route: "Girona · Zagreb · ELTE Budapest", deadline: "Not posted", english: "MOI accepted", why: "Apply only if full 2027 scholarships are confirmed. Email them.", url: "https://www.ifrosmaster.org/admission/faqs/" },
+  { name: "MAIA", full: "Medical Image Analysis", status: "add", route: "Girona (ES) · Bourgogne (FR) · Cassino (IT)", deadline: "Tentatively Nov 2026 – Feb 2027", english: "MOI accepted", why: "2027 scholarships confirmed (call not open yet). Max 2 selected per country. A direct match for your retinal-imaging final-year project.", url: "https://maiamaster.udg.edu/admission/faqs/" },
+  { name: "IPCVai", full: "Image Processing & Computer Vision with AI", status: "add", route: "Year 1 in Budapest (PPCU), then partner universities", deadline: "1 Nov 2026 – 2 Feb 2027, noon Paris time", english: "MOI accepted (official letter: whole bachelor's taught in English)", why: "New find from the deep research: an EM call is open for 2027 and it accepts MOI. A good fit for your computer-vision / retinal-imaging background." },
+  { name: "IFRoS", full: "Intelligent Field Robotic Systems", status: "maybe", route: "Girona · Zagreb · ELTE Budapest", deadline: "Not posted", english: "MOI accepted", why: "Its EU project ended 14 Oct 2026, so there are probably no 2027 scholarships. Email to confirm before spending time.", url: "https://www.ifrosmaster.org/admission/faqs/" },
   { name: "EMAI", full: "Artificial Intelligence (UPF Barcelona)", status: "drop", route: "UPF → Sapienza / Radboud / Ljubljana", deadline: "Self-funded windows only", english: "IELTS / TOEFL / Cambridge only", why: "No scholarships appear to be offered for 2027, and no MOI/PTE." },
   { name: "CoDaS", full: "Communications & Data Science", status: "drop", route: "Aalto-led consortium", deadline: "1 Dec 2026 – 5 Jan 2027", english: "MOI from Pakistan rejected · PTE 62", why: "Expects CGPA 3.60+ for Pakistan; communications-heavy." },
   { name: "EDISS / CYBERSURE", full: "Intelligent Software / Cybersecurity", status: "drop", route: "Nordic/EU consortia", deadline: "12 Jan / 4 Jan 2027", english: "IELTS/TOEFL only", why: "Great fits, but only possible if you take IELTS." },
@@ -276,10 +281,18 @@ export const checklist = {
     "TU Darmstadt: pre-check the equivalence table?",
     "TU Chemnitz: MOI accepted as B2?",
     "RPTU: MOI accepted?",
+    "HPI: is the international CS master's scholarship (€1,100/month) running for 2027?",
+    "relAI (TUM/LMU AI school): when does the 2027 call open?",
+    "Karachi Rotary clubs (District 3271): sponsor a Global Grant?",
+    "Aga Khan Foundation Pakistan: when does the 2027 cycle open?",
   ],
   "Applications": [
     "DEAI (11 Jan)",
     "MAIA",
+    "IPCVai (2 Feb)",
+    "Stipendium Hungaricum (~15 Jan, HEC + DreamApply)",
+    "Aga Khan Foundation (~Mar)",
+    "Deutschlandstipendium (after admission)",
     "Würzburg AI & XR (~15 Mar)",
     "Frankfurt UAS (15 Apr)",
     "Göttingen (~15 Apr)",

@@ -1,0 +1,441 @@
+[
+  {
+    "id": "erasmus-mundus",
+    "title": "Erasmus Mundus Joint Masters (EMJM) from Pakistan: exact steps",
+    "summary": "EMJM scholarships pay tuition, insurance and EUR 1,400/month for up to 24 months, and the scholarship round of almost every programme closes between early January and early February 2027. For Atif the priorities are DEAI (MOI letter accepted, portal opens 20 Oct 2026, deadline 11 Jan 2027 12:00 GMT), IPCVai (MOI accepted, deadline 2 Feb 2027) and MAIA (MOI accepted, call expected Nov 2026 to Feb 2027). EDISS, CYBERSURE, CoDaS, IMLEX and EMLDS need a test score, and EMLDS also accepts Duolingo. After selection you sign a student agreement, then get a national D visa for the first-semester country (Belgium through VFS, Spain through BLS, France through Campus France) from June to August 2027.",
+    "sections": [
+      {
+        "heading": "1. Common documents (prepare once, reuse for every EMJM)",
+        "when": "18 Oct - 30 Nov 2026",
+        "steps": [
+          {
+            "title": "English Medium of Instruction (MOI) letter from FAST-NUCES",
+            "detail": [
+              "Ask the FAST Karachi registrar/academic office for an official letter on letterhead, signed and stamped, stating that the entire BS Computer Science programme (with your dates and roll number) was taught and assessed in English.",
+              "Ask for 2-3 originals and a scanned PDF (colour, under 2 MB).",
+              "Accepted by DEAI, MAIA, IPCVai and (as a Pakistani degree exemption) CYBERUS. NOT accepted by EDISS, CYBERSURE, CoDaS or EMAI."
+            ],
+            "cost": "Usually a small university fee",
+            "time": "1-2 weeks",
+            "url": "https://deai.ulb.be/files/application_manual_deai.pdf",
+            "verified": true
+          },
+          {
+            "title": "Degree, transcript and HEC attestation",
+            "detail": [
+              "Scan the degree and the transcript in colour. The transcript must show credits and marks per course and the grading scale.",
+              "Start the HEC degree attestation now (HEC e-portal). Belgium's visa checklist requires HEC-attested diplomas and transcripts. Applications only need plain scans.",
+              "If the degree is not yet issued, get a provisional certificate/completion letter. DEAI needs proof of the obtained degree by the dates on its website."
+            ],
+            "cost": "HEC fee per document (check HEC portal)",
+            "time": "2-4 weeks",
+            "url": "https://www.vfsglobal.com/one-pager/belgium/pakistan/english/pdf/BELGIUM-LONG-STAY-Student-Visa-Checklist.pdf",
+            "verified": true
+          },
+          {
+            "title": "Europass CV",
+            "detail": [
+              "Build it at europass.europa.eu (free) and export to PDF. DEAI says Europass is preferred, MAIA recommends it, and CYBERUS requires the English Europass template.",
+              "Put work experience first: AI Software Engineer I (LLMs, RAG, MCP) with dates, stack and measurable results, then SharkStack and the internships.",
+              "Add the FYP (multimodal deep learning on retinal images). It is directly relevant to MAIA and IPCVai.",
+              "Keep it to 2-3 pages. No photo is needed unless the portal asks."
+            ],
+            "cost": "Free",
+            "time": "1-2 days",
+            "url": "https://europass.europa.eu/en/create-europass-cv",
+            "verified": true
+          },
+          {
+            "title": "Work-experience letters",
+            "detail": [
+              "Ask Imperium Dynamics and SharkStack for letters on letterhead in English giving the start and end dates, job title, tasks and full-time status.",
+              "DEAI scores professional experience per year in an IT/BI role, so upload these even where they are optional."
+            ],
+            "cost": "Free",
+            "time": "1 week",
+            "url": "https://deai.ulb.be/files/application_manual_deai.pdf",
+            "verified": true
+          },
+          {
+            "title": "Referees (2-3)",
+            "detail": [
+              "Ask 2 professors (FYP supervisor first) and 1 manager. DEAI asks for each referee's H-index (Google Scholar), so academic referees with Scholar profiles help.",
+              "Collect each referee's official email address (university domain), phone number, postal address and webpage.",
+              "Warn them that each portal (DEAI, MAIA, IPCVai, EDISS...) sends its own email link and that they must upload separately for each programme."
+            ],
+            "cost": "Free",
+            "time": "Ask by 15 Nov 2026",
+            "url": "https://deai.ulb.be/files/application_manual_deai.pdf",
+            "verified": true
+          },
+          {
+            "title": "Passport",
+            "detail": [
+              "Make sure the passport is valid until at least 2030. Belgium requires validity of 3 months beyond the visa expiry.",
+              "Renew now if needed. Several portals ask for the passport scan at application."
+            ],
+            "cost": "Per DGIP fee schedule",
+            "time": "2-4 weeks",
+            "url": "https://www.vfsglobal.com/one-pager/belgium/pakistan/english/pdf/BELGIUM-LONG-STAY-Student-Visa-Checklist.pdf",
+            "verified": true
+          },
+          {
+            "title": "Optional: one English test to unlock more programmes",
+            "detail": [
+              "With MOI only you can apply to DEAI, MAIA, IPCVai and CYBERUS (2027 successor).",
+              "Duolingo 125 unlocks EMLDS (language technology, 15 scholarships).",
+              "PTE Academic 62+ unlocks CoDaS, and PTE 68 unlocks IMLEX.",
+              "IELTS Academic 6.5 (writing 6.0 or more) unlocks EDISS and CYBERSURE, which accept only IELTS, TOEFL or Cambridge.",
+              "The results must be in before the earliest deadline you target (CYBERSURE 4 Jan, CoDaS 5 Jan, EDISS 12 Jan, IMLEX 13 Jan 2027)."
+            ],
+            "cost": "IELTS/PTE about PKR 60-75k; Duolingo about USD 70",
+            "time": "Book by mid-Nov 2026",
+            "url": "https://emlds.fcsh.unl.pt/faq/",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "heading": "2. DEAI (Data Engineering & AI, ULB Brussels -> UPC Barcelona -> TU Wien/Padua/Lyon)",
+        "when": "20 Oct 2026 - 11 Jan 2027 12:00 GMT",
+        "steps": [
+          {
+            "title": "Register on the DEAI portal (opens 20 Oct 2026)",
+            "detail": [
+              "Go to https://deai.ulb.ac.be/emundus/ in Chrome or Firefox (the manual says other browsers may not work fully).",
+              "Fill in First name, Surname, E-mail, Username and Password (at least 4 characters). All fields are mandatory.",
+              "Open the confirmation email and click the link to confirm your address. The email also contains your login data."
+            ],
+            "cost": "No application fee",
+            "time": "10 minutes",
+            "url": "https://deai.ulb.ac.be/emundus/",
+            "verified": true
+          },
+          {
+            "title": "Fill in the application form (press Save & Continue after each form)",
+            "detail": [
+              "Personal details: sex, birth date, nationality, address, and a mobile number with the +92 prefix. Rank specialties 1-3 (TU Wien, Padua, Lyon). The ranking is for statistics only.",
+              "Choose the correct scholarship category at the end. Pakistan is a partner country and you are applying for the EMJM scholarship. The manual says a wrong category may mean automatic exclusion.",
+              "Academic qualifications: degree title, the URL of the FAST BS CS curriculum page, country, university (FAST-NUCES must appear in the IAU-based drop-down) and graduation date.",
+              "References: 0-3 referees with full name, institution, exact email, phone, postal address, webpage and optional H-index from Google Scholar.",
+              "Work experience: each job with dates, role and tasks.",
+              "Language skills: select 'studies in English' and upload the MOI certificate, or a test (IELTS 5.5, TOEFL iBT 72, PTE Academic 59, Cambridge FCE and others). Duolingo is not listed."
+            ],
+            "cost": "Free",
+            "time": "2-3 hours",
+            "url": "https://deai.ulb.be/files/application_manual_deai.pdf",
+            "verified": true
+          },
+          {
+            "title": "Fill in the self-evaluation Excel (the step most people get wrong)",
+            "detail": [
+              "Download the mandatory macro-enabled template linked in the manual (section 6.1.2) and open it in desktop Microsoft Excel with macros enabled. LibreOffice or Google Sheets may break it.",
+              "Read the instruction sheet first.",
+              "Enter the FAST grading system: minimum passing mark and maximum mark, or the letter-grade equivalence (A/A+ = 4, B+/A- = 3, B-/B = 2, D-C+ = 1 in the example tables).",
+              "List every bachelor course with its credits and mark, and tag each as an ACM CS major subject, an ACM minor subject or non-CS. Minor subjects may be at most 10% of CS subjects.",
+              "The sheet converts credits to ECTS (60 x credits / credits per year) and computes your weighted 1-4 average and the CS-credit share. These numbers drive the ranking.",
+              "Do NOT unprotect cells or edit formulas. That means automatic exclusion.",
+              "Upload it as 'Self-evaluation sheet for the main bachelor' in the mandatory attachments."
+            ],
+            "cost": "Free",
+            "time": "3-5 hours",
+            "url": "https://deai.ulb.be/files/application_manual_deai.pdf",
+            "verified": true
+          },
+          {
+            "title": "Upload the attachments (each file 2 MB or less, in English)",
+            "detail": [
+              "Mandatory: passport photo (jpg/png), cover letter (PDF), passport scan (PDF), English CV (PDF, Europass preferred), degree certificate and transcripts, filled self-evaluation Excel, English proof (MOI letter).",
+              "Optional but scored: work-experience contracts or letters (with dates, tasks and role), the FYP report, certificates.",
+              "Compress PDFs if needed (for example with ilovepdf) to stay under 2 MB."
+            ],
+            "cost": "Free",
+            "time": "1 hour",
+            "url": "https://deai.ulb.be/files/application_manual_deai.pdf",
+            "verified": true
+          },
+          {
+            "title": "How DEAI referees upload letters",
+            "detail": [
+              "When you save a referee, the system emails them automatically with a link to a short 4-5 question report and a letter upload, in English and in PDF.",
+              "Letters can arrive after you submit, but by the reference deadline of 18 Jan 2027.",
+              "The portal shows you whether each letter has arrived. If a referee has a problem, delete them and re-enter the details, which triggers a new email.",
+              "Only referees with an uploaded letter count. Chasing them is your responsibility."
+            ],
+            "cost": "Free",
+            "time": "Referees need 1-2 weeks",
+            "url": "https://deai.ulb.be/files/application_manual_deai.pdf",
+            "verified": true
+          },
+          {
+            "title": "Submit early (by 15 Dec 2026) and keep the confirmation",
+            "detail": [
+              "Tick the declaration of correctness and press 'Submit my form!'. Then print or save the application.",
+              "Early submissions are checked, and DEAI notifies you of missing files or a bad Excel in time to fix them.",
+              "To change anything after submitting, email deai_admissions@cs.ulb.ac.be. The application is reopened as incomplete and you must resubmit it.",
+              "Hard deadline: 11 Jan 2027, 12:00 GMT (17:00 Pakistan time). Reference letters are due 18 Jan 2027."
+            ],
+            "cost": "Free",
+            "time": "-",
+            "url": "https://deai.ulb.be/home/students/admission/",
+            "verified": true
+          },
+          {
+            "title": "Results",
+            "detail": [
+              "The joint committee ranks applicants into selected, reserve and not selected lists, and the EC must approve the selected list.",
+              "Last cycle, results were announced on 7 Feb 2026 (25 scholarships from about 3,000 applications). Expect late Jan to Feb 2027. This timing is not officially stated.",
+              "If you are not funded, the self-funded round (EUR 9,000/year non-EU) runs from 1 Mar to 15 May 2027."
+            ],
+            "cost": "-",
+            "time": "Feb 2027",
+            "url": "https://deai.ulb.be/first-deai-erasmus-mundus-scholarship-recipients-selected/",
+            "verified": false
+          }
+        ]
+      },
+      {
+        "heading": "3. MAIA (Medical Image Analysis: Girona / Bourgogne / Cassino)",
+        "when": "Watch from 1 Nov 2026; call expected Nov 2026 - Feb 2027",
+        "steps": [
+          {
+            "title": "Check whether the call is open",
+            "detail": [
+              "As of 18 Oct 2026, maiamaster.udg.edu/admission says 'Application is closed'. The page tentatively expects the EM grant call from November 2026 to February 2027, and self-funded applications until May 2027.",
+              "MAIA is re-funded for 2027-29 (it is on the July 2026 list of selected EMJMs). There was no EM intake in 2026-28.",
+              "Check the admission page every week from 1 Nov 2026 and subscribe to its news."
+            ],
+            "cost": "-",
+            "time": "-",
+            "url": "https://maiamaster.udg.edu/admission/",
+            "verified": true
+          },
+          {
+            "title": "Prepare the MAIA documents (2026-edition list; may change)",
+            "detail": [
+              "Letter of motivation focused on medical imaging, linking the retinal-image FYP to deep learning for diagnosis.",
+              "CV (Europass recommended).",
+              "Bachelor's degree copy with English translation, or proof of final-year enrolment.",
+              "Academic transcripts and a certificate that the degree gives access to postgraduate study (ask FAST for one).",
+              "Proof of English: B2. IELTS 6.5, or an official letter from your university that the bachelor was taught in English (MOI accepted). TOEFL Home Edition and Duolingo are NOT accepted.",
+              "Passport copy and a passport-size photo.",
+              "Names and addresses of two referees."
+            ],
+            "cost": "No fee mentioned",
+            "time": "-",
+            "url": "https://maiamaster.udg.edu/faq/",
+            "verified": true
+          },
+          {
+            "title": "Apply online",
+            "detail": [
+              "Upload all documents as one zip or PDF through the online form before the deadline. Nothing goes by post or email.",
+              "Keep the confirmation email.",
+              "If selected, complete the UdG pre-registration form and request the grade-equivalence document (declaracion de equivalencia de nota media) from the Spanish Ministry of Education."
+            ],
+            "cost": "-",
+            "time": "-",
+            "url": "https://maiamaster.udg.edu/admission/",
+            "verified": true
+          },
+          {
+            "title": "Know the MAIA nationality cap",
+            "detail": [
+              "The MAIA FAQ says only two selected applicants from the same country can be admitted. That is stricter than the general 10% rule, so a very strong application is needed."
+            ],
+            "cost": "-",
+            "time": "-",
+            "url": "https://maiamaster.udg.edu/faq/",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "heading": "4. Other EMJM portals in deadline order",
+        "when": "Nov 2026 - Feb 2027",
+        "steps": [
+          { "title": "CYBERSURE: 16 Nov 2026 - 4 Jan 2027 (IELTS/TOEFL/Cambridge only)", "detail": ["Test scores by 18 Jan 2027. MOI is not accepted for Pakistan."], "cost": "-", "time": "-", "url": "https://www.cybersure-master.eu/admission", "verified": true },
+          { "title": "CoDaS: 1 Dec 2026 09:00 - 5 Jan 2027 15:00 (GMT+2); documents and letters by 12 Jan", "detail": ["PTE Academic 62 (writing 54) accepted. MOI is not accepted."], "cost": "-", "time": "-", "url": "https://www.unite-codas-master.eu/admission.html", "verified": true },
+          { "title": "EDISS: 16 Nov 2026 - 12 Jan 2027 (IELTS 6.5/TOEFL 93 only)", "detail": ["MOI is accepted only for degrees from AU/CA/NZ/UK/US/EU/EEA/CH."], "cost": "-", "time": "-", "url": "https://www.master-ediss.eu/admission-requirements/", "verified": true },
+          { "title": "IMLEX: 2 Dec 2026 - 13 Jan 2027 23:59 (UEF Studyinfo)", "detail": ["Full EMJM scholarships for the 2027 intake. TOEFL 92 / IELTS 6.5 / PTE 68 / C1, or 'in limited cases' an English-taught degree.", "Results by April 2027, confirm the place by 13 Jul 2027, start Sept 2027 in Joensuu."], "cost": "-", "time": "-", "url": "https://www.imlex.org/how-to-apply/admission-criteria/", "verified": true },
+          { "title": "SMACCs: 1 Feb 2027 for scholarship applicants; interviews April 2027; results by about 9-25 May", "detail": ["Smart cities (engineering degree, computer engineering accepted). TOEFL iBT 90 or equivalent. Its page says it can usually accept English-medium previous studies with an official letter, but then says other candidates must take a test. Email to confirm."], "cost": "-", "time": "-", "url": "https://www.smaccs.eu/admissions/deadlines/", "verified": true },
+          { "title": "IPCVai: 1 Nov 2026 - 2 Feb 2027 (noon, Paris time)", "detail": ["MOI accepted: an official university document that the whole bachelor was taught in English. Otherwise IELTS 6.5 / TOEFL 90.", "Year 1 is at PPKE Budapest, so the first visa is Hungarian. Shortlisted candidates may be interviewed."], "cost": "-", "time": "-", "url": "https://ipcv.eu/application-and-selection/application/", "verified": true },
+          { "title": "EMLDS and EMILDAI: calls open Nov 2026, dates TBA", "detail": ["EMLDS: 15 EMJM scholarships for 2027-29, Duolingo 125 accepted.", "EMILDAI (computing stream): opens November 2026. Applicants who completed their degree in English are exempt from a test."], "cost": "-", "time": "-", "url": "https://emlds.fcsh.unl.pt/whentoapply/", "verified": true }
+        ]
+      },
+      {
+        "heading": "5. Motivation letter, CV and the selection rules",
+        "when": "Nov - Dec 2026",
+        "steps": [
+          {
+            "title": "Write one strong core letter, then tailor about 40% per programme",
+            "detail": [
+              "Length: 1-1.5 pages (DEAI scores organisation, content, critical thinking, originality and factual accuracy).",
+              "Paragraph 1: the concrete problem you want to work on, for example production LLM/RAG systems on messy enterprise data for DEAI, or retinal-image deep learning for MAIA/IPCVai.",
+              "Paragraph 2: evidence. FYP results, the Imperium Dynamics systems you built (with numbers) and the relevant courses.",
+              "Paragraph 3: why this consortium. Name specific courses, labs, the specialisation (for example TU Wien Knowledge-Driven DM) and the mobility path.",
+              "Paragraph 4: career plan. Industry R&D in Europe after graduation and knowledge transfer to Pakistan later. Mention the programme name correctly. Copy-paste errors are a classic rejection reason.",
+              "Avoid generic praise of Europe and do not list everything in the CV again."
+            ],
+            "cost": "-",
+            "time": "1-2 weeks",
+            "url": "https://erasmuscatalogue.com/motivation-letter-for-erasmus-mundus/",
+            "verified": false
+          },
+          {
+            "title": "10% nationality cap and reserve lists",
+            "detail": [
+              "EU rule: no more than 10% of the EMJM scholarships in a call may go to candidates of one nationality (EMLDS FAQ, EMAI FAQ, CoDaS). MAIA caps it at 2 per country.",
+              "Selection is a ranking: selected list, then reserve list, then not selected. If a selected candidate declines, the next on the reserve list gets the offer.",
+              "Reserve offers can come as late as May-June, and with short acceptance windows (CoDaS gives 7 days for reserve offers and 13 days for main offers, EMAI 3-5 days). Keep your email monitored and documents ready.",
+              "An EMJM scholarship can be held only once in a lifetime. Accepting one makes you ineligible for others.",
+              "There is no limit on the number of EMJMs you can apply to (the DEAI manual says there is no formal restriction). Apply to 5-8 programmes."
+            ],
+            "cost": "-",
+            "time": "-",
+            "url": "https://emlds.fcsh.unl.pt/faq/",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "heading": "6. After selection: acceptance, student agreement and scholarship payments",
+        "when": "Feb - Sept 2027",
+        "steps": [
+          {
+            "title": "Accept the offer inside the deadline",
+            "detail": [
+              "Reply in writing within the stated window (often 3-14 days).",
+              "Decline other EMJM offers promptly so that reserve candidates can move up."
+            ],
+            "cost": "-",
+            "time": "3-14 days",
+            "url": "https://www.unite-codas-master.eu/admission.html",
+            "verified": true
+          },
+          {
+            "title": "Sign the EMJM Student Agreement",
+            "detail": [
+              "Every EMJM must sign a student agreement with each scholarship holder. It sets out rights, obligations, the mobility path, the payment schedule, insurance and the rules for repayment if you drop out.",
+              "Read the model agreement on the programme site before signing (DEAI, IPCV, EMLDS and SMACCs publish theirs)."
+            ],
+            "cost": "-",
+            "time": "Mar - May 2027",
+            "url": "https://ipcv.eu/",
+            "verified": false
+          },
+          {
+            "title": "How the scholarship is paid",
+            "detail": [
+              "Participation costs (tuition and insurance) are paid by the consortium directly. You never pay tuition.",
+              "The living allowance of EUR 1,400/month for up to 24 months is paid by the coordinating university, usually monthly by bank transfer, and starts only after you arrive and enrol. EMAI, for example, pays only after arrival in Barcelona.",
+              "You usually need a European bank account first, so the first payment can come 3-6 weeks after arrival.",
+              "Bring EUR 2,000-3,000 for the first month: deposit, rent and transport. This comes from your PKR 10-15 lakh budget.",
+              "The allowance is reduced for months spent in the scholarship holder's residence country (not relevant for Pakistan)."
+            ],
+            "cost": "-",
+            "time": "From Sept/Oct 2027",
+            "url": "https://www.eacea.ec.europa.eu/scholarships/erasmus-mundus-catalogue_en",
+            "verified": false
+          },
+          {
+            "title": "Admission and scholarship letters for the visa",
+            "detail": [
+              "Ask the first-semester university for: (1) the final admission letter (Belgium refuses a 'provisional registration certificate'), (2) an EMJM scholarship certificate in English with the amount and duration, (3) an accommodation or address confirmation if available.",
+              "Request these as soon as you accept, ideally by May 2027."
+            ],
+            "cost": "-",
+            "time": "Apr - May 2027",
+            "url": "https://www.vfsglobal.com/one-pager/belgium/pakistan/english/pdf/BELGIUM-LONG-STAY-Student-Visa-Checklist.pdf",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "heading": "7. Visa for the first-semester country",
+        "when": "May - Aug 2027",
+        "steps": [
+          {
+            "title": "Belgium (DEAI at ULB; CYBERUS year-2 options): long-stay D student visa via VFS Global",
+            "detail": [
+              "Channel: the Belgian Embassy in Islamabad says short- and long-stay visas are processed exclusively through VFS Global (Gerry's). TLScontact is not used in Pakistan.",
+              "Fill in the form on https://visaonweb.diplomatie.be/, print it twice, date and sign it.",
+              "Book a VFS appointment (Islamabad, Lahore or Karachi). You can apply up to 6 months before travel.",
+              "Checklist: 2 signed forms, 3 photos (under 6 months old), passport plus copies (valid 3+ months beyond the visa), ORIGINAL final admission letter, original HEC-attested diplomas and transcripts (no apostille needed for the visa, but the university may require one).",
+              "Also: proof of the IBZ administrative fee if one applies (scholarship holders may be exempt; check the IBZ site), and a police character certificate covering 5 years, apostilled by MOFA.",
+              "Also: a medical certificate from an embassy-accredited doctor (handed to you in a sealed envelope), and financial cover. The EU/EMJM scholarship certificate is enough, so the Annex 32 sponsor form is not needed.",
+              "Documents must be in English, French, Dutch or German, and Urdu documents need a certified translation.",
+              "Processing: 2-3 weeks, or 4-6 weeks if the file is sent to the Immigration Office in Brussels (longer in summer). Apply by early July 2027.",
+              "On arrival, register at the commune within 8 days to get the residence card (A-card)."
+            ],
+            "cost": "Belgian visa fee + VFS service charge (check VFS Pakistan); medical and police certificates extra",
+            "time": "2-6 weeks",
+            "url": "https://www.vfsglobal.com/one-pager/belgium/pakistan/english/pdf/BELGIUM-LONG-STAY-Student-Visa-Checklist.pdf",
+            "verified": true
+          },
+          {
+            "title": "Spain (EMAI at UPF; DEAI semester 2 at UPC; MAIA Girona semester): national study visa via BLS Pakistan",
+            "detail": [
+              "Channel: BLS International (pak.blsspainvisa.com), with centres in Islamabad, Lahore and Karachi. Book through appointment.thespainvisa.com.",
+              "Fees: visa PKR 29,578 plus a BLS service fee of PKR 5,519, cash only and non-refundable (as listed Oct 2026).",
+              "Use the 'Student (more than 180 days)' checklist on the BLS 'Study Visa' page: national visa application form, 1 white-background photo (under 6 months old) stuck on the form, passport plus copies, admission letter.",
+              "Also: proof of funds (the scholarship letter), and full Spanish health insurance with no co-payment from an insurer authorised in Spain.",
+              "Also: for stays over 180 days, a police certificate (apostilled, with a sworn Spanish translation) and a medical certificate.",
+              "For DEAI: you hold a Belgian permit in semester 1. Moving to Spain for semester 2 may use EU intra-mobility rules for students (Directive 2016/801). Ask the consortium whether Spain needs a new visa or only a notification.",
+              "Timing: apply 2-3 months before travel. Processing is often 3-6 weeks."
+            ],
+            "cost": "PKR 29,578 + PKR 5,519",
+            "time": "3-6 weeks",
+            "url": "https://pak.blsspainvisa.com/national-study-visa.php",
+            "verified": false
+          },
+          {
+            "title": "France (MAIA semester 1 at Universite Bourgogne Europe; CYBERUS at UBS): Campus France + VLS-TS student visa",
+            "detail": [
+              "Create an 'Etudes en France' account with Campus France Pakistan and upload the admission and scholarship letters. Attend the Campus France interview.",
+              "Then book the visa appointment at the French visa application centre in Pakistan (check france-visas.gouv.fr for the current provider).",
+              "After arrival, validate the VLS-TS online within 3 months.",
+              "Allow 6-8 weeks in total and start in May-June 2027."
+            ],
+            "cost": "Campus France fee + visa fee (check)",
+            "time": "6-8 weeks",
+            "url": "https://france-visas.gouv.fr/",
+            "verified": false
+          },
+          {
+            "title": "Hungary (IPCVai year 1 at PPKE Budapest) / Finland (IMLEX, EDISS, CoDaS at Aalto) / Norway (CYBERSURE)",
+            "detail": [
+              "Hungary: residence permit for study purposes, through the Hungarian embassy in Islamabad and the Enter Hungary online system.",
+              "Finland: online residence permit at Enter Finland, then a biometrics visit to the VFS/embassy.",
+              "Norway: UDI online application, then a VFS appointment.",
+              "Each needs the admission letter, the scholarship letter as proof of funds, and insurance. Apply as soon as you accept, since Finnish and Norwegian permits can take 1-2 months."
+            ],
+            "cost": "Varies",
+            "time": "1-2 months",
+            "url": "https://ipcv.eu/",
+            "verified": false
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "Submit every application early (by mid-December). DEAI checks early files and lets you fix mistakes, and portals slow down near the deadline.",
+      "With no IELTS, your realistic EMJM list is DEAI, IPCVai, MAIA and the CYBERUS successor (all accept the FAST MOI letter or exempt Pakistani degrees). A Duolingo test (about USD 70) adds EMLDS.",
+      "Apply to many EMJMs in parallel. There is no limit, the application fee is zero, and each one is a separate lottery under the 10% nationality cap.",
+      "Use the same Europass CV and a tailored motivation letter. Name the consortium universities and specific courses.",
+      "Ask referees to upload early. A missing letter simply counts as no letter.",
+      "Self-funded fallbacks: DEAI EUR 9,000/year (round closes 15 May 2027) and EMAI EUR 9,000/year (until 5 Jun 2027). These fit the PKR 35-40 lakh budget only partially."
+    ],
+    "pitfalls": [
+      "Editing formulas or unprotecting cells in the DEAI self-evaluation Excel means automatic exclusion.",
+      "Choosing the wrong scholarship category in the DEAI form may mean automatic exclusion.",
+      "Files over 2 MB, or untranslated documents, on the DEAI portal.",
+      "Assuming MOI works everywhere. EDISS, CYBERSURE, CoDaS and EMAI explicitly reject a Pakistani MOI letter.",
+      "Assuming Duolingo works everywhere. Only EMLDS (and DCU for some faculties) accepts it. MAIA, DEAI, CoDaS and EMAI do not.",
+      "Applying to IFRoS or JEMARO for a 2027 scholarship. Their EU funding has ended (JEMARO says it has no 2026-28 recruitment).",
+      "Booking the Belgian visa with a 'provisional registration certificate'. It must be the final or provisional admission letter.",
+      "Leaving the HEC attestation and the apostilled police certificate until July. Both are needed for the Belgian file.",
+      "Arriving without cash for the first month. The stipend starts only after arrival, enrolment and a local bank account."
+    ]
+  }
+]

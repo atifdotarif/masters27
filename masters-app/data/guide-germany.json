@@ -1,0 +1,619 @@
+[
+  {
+    "id": "germany",
+    "title": "Germany: exact steps from Karachi to an October 2027 English-taught master's",
+    "summary": "Timeline for a FAST-NUCES BS CS graduate in Karachi aiming for Winter Semester 2027/28 (lectures mid-October 2027) at a tuition-free German public university, with an MOI letter instead of IELTS. The critical path is: attested documents (Oct-Dec 2026) -> uni-assist/direct applications (Dec 2026-Jul 2027, most deadlines 15 Jan-31 May) -> blocked account EUR 11,904 (2026 rate) -> visa via the Consular Services Portal for the Karachi Consulate (apply as early as an admission letter arrives, because of long waits) -> arrival, Anmeldung, enrolment and residence permit. Budget fit is borderline-OK: the PKR 35-40 lakh covers the blocked account; the PKR 10-15 lakh must cover fees, insurance, the flight, the deposit and the semester fee.",
+    "sections": [
+      {
+        "heading": "0. Decide where to apply (do this first)",
+        "when": "Oct-Nov 2026",
+        "steps": [
+          {
+            "title": "Shortlist English-taught MSc programmes that accept an MOI letter",
+            "detail": [
+              "Search the DAAD International Programmes database: filter Master's, English only, Computer Science/AI/Data Science, Winter Semester 2027/28.",
+              "For each programme, open the official programme page and note: deadline (non-EU applicants often 15 Jan-31 Mar for Winter Semester at TUs; some up to 31 May or 15 Jul), application route (uni-assist, VPD + own portal, or direct portal), minimum grade (German-converted), required ECTS in maths/CS, and whether an English-medium-of-instruction (MOI) letter replaces IELTS/TOEFL.",
+              "Convert your CGPA 3.41/4 with the modified Bavarian formula: German grade = 1 + 3 x (4.0 - 3.41)/(4.0 - 2.0) = about 1.9. Many TU/RWTH/TUM programmes cut off around 2.5 or better, so you qualify on paper; selective ones (TUM, RWTH Data Science) also weigh module content.",
+              "Flag programmes that require IELTS/TOEFL even with an MOI letter (common at TUM, RWTH, some LMU programmes) and treat them as fall-backs only if you decide to sit a test.",
+              "Flag programmes that demand GRE (rare in Germany; some Data Science/Business programmes). Skip them, given your no-GRE preference.",
+              "Keep a spreadsheet: university, programme, route, deadline, fee (EUR 75/30 uni-assist, or the university's own fee), MOI accepted (Y/N), status."
+            ],
+            "cost": "Free",
+            "time": "2-3 weeks",
+            "url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/",
+            "verified": true
+          },
+          {
+            "title": "Check that Germany treats your Pakistani BS as equivalent (anabin)",
+            "detail": [
+              "In anabin, check that the institution 'National University of Computer and Emerging Sciences' is rated H+ (recognised). It is widely listed as H+, but confirm.",
+              "A 4-year (130+ credit hours) BS from Pakistan generally qualifies for master's admission; 2-year BA/BSc degrees do not, which does not affect you."
+            ],
+            "cost": "Free",
+            "time": "30 minutes",
+            "url": "https://anabin.kmk.org/",
+            "verified": false
+          }
+        ]
+      },
+      {
+        "heading": "1. FAST-NUCES documents: transcripts, degree, MOI letter",
+        "when": "Oct-Nov 2026 (start immediately)",
+        "steps": [
+          {
+            "title": "Request extra official transcripts, the degree, and an English-medium-of-instruction (MOI) letter from the FAST-NUCES Karachi registrar or academic office",
+            "detail": [
+              "Email or visit the Academic Office / Registrar at FAST-NUCES Karachi campus (ST-4, Shah Latif Town, National Highway). Ask for: (a) 3-4 sealed original transcripts, (b) the original degree if not yet collected, or the provisional certificate, (c) an MOI letter.",
+              "Ask for the MOI letter wording: 'This is to certify that [full name], Roll No. [xx], was enrolled in the 4-year BS Computer Science programme from [month year] to [month year], and the medium of instruction and examination for the entire programme was English.' Ask for letterhead, signature, stamp, issue date and a contact or verification email.",
+              "Also ask for a 'grading system' explanation or the legend on the transcript's back (4.0 scale, minimum pass grade). uni-assist needs it; if it is not on the transcript, upload the official FAST grading policy page.",
+              "Ask whether FAST can send verification emails directly to universities (some German universities verify MOI letters by email).",
+              "Pay the registrar's fee per document at the accounts office or bank challan. The exact fees are not published online, so ask the office."
+            ],
+            "cost": "Unknown (registrar fee per document; ask; typically a few thousand PKR)",
+            "time": "1-3 weeks",
+            "url": "https://www.nu.edu.pk/verification",
+            "verified": false
+          },
+          {
+            "title": "Collect experience letters and other supporting documents",
+            "detail": [
+              "Get experience letters from Imperium Dynamics, SharkStack and the internships, on letterhead, with your title, dates, hours/week and main duties (LLMs, RAG, MCP). These strengthen your motivation letter and the visa CV.",
+              "Get Matric and Intermediate certificates, attested by IBCC if your target university or the visa asks for school certificates. The Karachi visa checklist historically listed O/A-level or SSC/HSSC copies.",
+              "Get 2 references (one professor, one manager) ready. Some programmes ask for letters of recommendation (LoRs) through the portal."
+            ],
+            "cost": "Free; IBCC attestation fee extra if needed",
+            "time": "1-2 weeks",
+            "url": "https://ibcc.edu.pk/",
+            "verified": false
+          }
+        ]
+      },
+      {
+        "heading": "2. HEC degree attestation (e-Attestation, online since 11 May 2026)",
+        "when": "Nov-Dec 2026",
+        "steps": [
+          {
+            "title": "Apply for HEC e-Attestation of your BS degree and transcript",
+            "detail": [
+              "Go to the HEC e-Services portal and create an account (new users) or log in. Use exactly the name spelling on your CNIC and degree.",
+              "Fill in personal details: full name, father's name, date of birth, gender, marital status, address. These must match your CNIC and documents exactly.",
+              "Add academic records: Matric/SSC, Intermediate/HSSC, BS. For each, add the degree title, duration, session, campus (FAST-NUCES Karachi) and roll/registration number.",
+              "Select the documents to attest: BS degree (or provisional certificate) and the final transcript. Attest at least the degree and the transcript (2 documents).",
+              "Upload clear colour scans (PDF/JPG) of: CNIC front and back, the degree, the transcript, and other requested supporting documents.",
+              "Click 'Proceed for Payment'. A 1-Link consumer number is generated; pay via any internet/mobile banking app under 1Bill/Bill Payment, then click 'Verify Payment' in your HEC account.",
+              "HEC verifies with NADRA and directly with FAST-NUCES. FAST must confirm your degree through the HEC system; follow up with the FAST registrar if the status is stuck at 'University verification'.",
+              "You get an SMS/email when it is done. Download the e-Attestation Certificate (with a QR/verification code) from your HEC account. No originals and no courier; the old 'by courier' and walk-in systems ended, and unpaid old-system applications were auto-cancelled.",
+              "Save the PDF. You will upload it to uni-assist and university portals, the CSP visa portal and MOFA."
+            ],
+            "cost": "Rs 3,000 per document (so about Rs 6,000 for degree + transcript)",
+            "time": "About 1-4 weeks (no official SLA published; depends on how fast FAST verifies)",
+            "url": "https://eservices.hec.gov.pk/",
+            "verified": false
+          }
+        ]
+      },
+      {
+        "heading": "3. MOFA attestation / apostille (conditional)",
+        "when": "Dec 2026 (only if a university, or later the visa or Anerkennung, asks)",
+        "steps": [
+          {
+            "title": "Decide whether you need MOFA attestation at all",
+            "detail": [
+              "German universities and uni-assist ask for 'official' documents (stamp and signature, or a verification code), not for an apostille. The HEC e-attestation plus FAST's originals is usually enough.",
+              "Caution: Pakistan joined the Hague Apostille Convention in 2023, but several EU states, reportedly including Germany, lodged objections to Pakistan's accession. If so, a Pakistani apostille has no automatic legal effect in Germany. Do not pay for apostilles 'for Germany' unless a German authority explicitly asks.",
+              "Get MOFA attestation/apostille only if a specific university, the consulate, or a German employer later asks for it."
+            ],
+            "cost": "Free to check",
+            "time": "-",
+            "url": "https://mofa.gov.pk/consular-service-attestation-of-documents",
+            "verified": false
+          },
+          {
+            "title": "If required: MOFA apostille with mandatory online registration (since 27 July 2026)",
+            "detail": [
+              "Since Monday 27 July 2026, apostille requests are not accepted without prior online registration; walk-ins without registration are refused.",
+              "Prerequisite: HEC attestation of the degree/transcript (IBCC for Matric/Inter).",
+              "Create an account at apostille.mofa.gov.pk. Fill in the details and attach scans of each document to be apostilled. Choose the office (Karachi liaison/camp office) and the date and time slot.",
+              "Note: MOFA posted a notice that the Apostille portal was temporarily suspended because of cybersecurity threats. In October 2026 a new MOFA Digital Attestation Portal (portal-attestation.mofa.gov.pk) was reported for general attestation and apostille, with e-certificates sent by email. Check which portal is live.",
+              "On the appointment day, go to the MOFA Karachi Camp/Liaison Office with: the original CNIC, the original documents, one photocopy of each, and the appointment printout. The address is shown on the appointment confirmation; confirm it on the WhatsApp help desk.",
+              "Alternative: authorised couriers (TCS, Leopards, Gerry's) can submit and return documents for you; they charge a service fee on top.",
+              "Help desk on WhatsApp: +92 307 1339682."
+            ],
+            "cost": "Rs 3,000 per personal/educational document (MOFA fee schedule since 8 Jul 2024) + courier charges if used",
+            "time": "Same day to 1 week after the appointment; booking the slot can take 1-3 weeks",
+            "url": "https://apostille.mofa.gov.pk/",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "heading": "4. Translations",
+        "when": "Not needed in most cases",
+        "steps": [
+          {
+            "title": "Translations: only for documents not in English or German",
+            "detail": [
+              "FAST transcripts, the degree, the MOI letter, the HEC e-attestation and experience letters are in English, so uni-assist accepts them without translation.",
+              "Only Urdu documents (e.g. some Matric/Inter certificates, a nikahnama, or a domicile/FRC) need a sworn translation into English or German by a court-admissible translator. The original-language scan must be uploaded together with the translation.",
+              "German translations are not needed for English-taught programmes or for the visa. Keep your passport name spelling consistent everywhere."
+            ],
+            "cost": "Free (Rs 2,000-5,000/page if an Urdu document must be translated)",
+            "time": "-",
+            "url": "https://www.uni-assist.de/en/how-to-apply/plan-your-application/educational-certificates-translations/",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "heading": "5. uni-assist (for universities that use it)",
+        "when": "Dec 2026-Mar 2027 (submit at least 8 weeks before each deadline)",
+        "steps": [
+          {
+            "title": "Create a My assist account and upload documents (digital)",
+            "detail": [
+              "Register at my.uni-assist.de with your passport name, email and date of birth. Fill in your personal data and educational history exactly as on your transcript.",
+              "Scan each document in colour as a PDF: passport data page, BS degree (or provisional certificate), complete transcript (all pages, including the back with the grading scale), HEC e-attestation, MOI letter, Matric/Inter certificates, CV, and motivation letter if the university requires it there.",
+              "Upload each document only once; it is reused for all applications. Official documents must show the issuing institution's stamp and signature, or a verification code.",
+              "Certified copies: the standard process is digital. Paper certified copies by post are needed ONLY if your chosen university's entry in the uni-assist university list says it requires officially certified copies. Check every university. Scans of certified copies and photocopies of certified copies are not accepted where certification is required.",
+              "If certified copies are required: have them certified (a German consulate, or an authority allowed to certify), then post them to uni-assist e.V., 11507 Berlin, Germany by DHL/FedEx, with the application number on the cover sheet."
+            ],
+            "cost": "Free account; courier to Berlin about Rs 8,000-15,000 only if posting is needed",
+            "time": "1-2 days to set up",
+            "url": "https://www.uni-assist.de/en/how-to-apply/send-track/uploading-documents/",
+            "verified": true
+          },
+          {
+            "title": "Choose the procedure: full (standard) application vs VPD",
+            "detail": [
+              "Full/standard application: uni-assist checks your documents and forwards the complete application to the university, which decides. Used by e.g. TU Berlin and many others.",
+              "VPD (Vorprüfungsdokumentation): uni-assist only evaluates your degree and computes your German grade. It issues a VPD PDF that you then upload to the university's OWN portal (e.g. TU Darmstadt TUCaN, Uni Potsdam PULS, TU Dresden, Uni Leipzig, some Bavarian universities). A VPD is valid for one year and is specific to one university.",
+              "Request the VPD early. Many universities want the VPD in their portal BY their deadline, so request it 6-8 weeks before.",
+              "The university's programme page tells you which route applies. Never guess."
+            ],
+            "cost": "Same fee for VPD and standard",
+            "time": "Processing 4-6 weeks typical; about 6-7 weeks reported for Asia in peak season",
+            "url": "https://www.uni-assist.de/en/how-to-apply/plan-your-application/deadlines-processing-time/",
+            "verified": false
+          },
+          {
+            "title": "Pay the uni-assist fee from Pakistan",
+            "detail": [
+              "The fee is EUR 75 for the first university/programme per semester and EUR 30 for each additional one in the same semester. Some universities pay the fee themselves (check the list).",
+              "Pay inside My assist by Visa/MasterCard credit/debit card with 3D Secure enabled. In Pakistan, enable international e-commerce on your card in the bank app first (many banks block it by default). Mastercard debit cards from HBL, Meezan, UBL and others usually work; expect about 4-6% FX/markup + 16% FED/withholding-type charges on international card spend.",
+              "Bank transfer (SWIFT) is possible but slow (3-7 days) and costly; use the reference exactly as given and pay all charges (OUR).",
+              "Applications are processed only after payment arrives. Fees are non-refundable once processing starts (EUR 10 admin fee on withdrawals after the 14-day period).",
+              "uni-assist never asks for payment outside the portal. Ignore agents who ask for money 'for uni-assist'."
+            ],
+            "cost": "EUR 75 first + EUR 30 each additional (about Rs 24,000 + Rs 9,600 each at Rs 320/EUR, plus card charges)",
+            "time": "Card: instant; SWIFT: 3-7 working days",
+            "url": "https://www.uni-assist.de/en/how-to-apply/pay-all-fees/handling-fees/",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "heading": "6. Motivation letter, CV and LoRs (German conventions)",
+        "when": "Nov 2026-Jan 2027",
+        "steps": [
+          {
+            "title": "Motivation letter (Motivationsschreiben)",
+            "detail": [
+              "1-2 pages max, in English, tailored for each programme (name specific modules, labs or chairs, e.g. NLP or medical imaging groups).",
+              "Structure: (1) why this field: your retinal multimodal FYP and LLM/RAG work; (2) academic fit: map FAST courses to their prerequisites (maths, algorithms, ML); (3) professional fit: concrete results at Imperium Dynamics, with numbers; (4) why this university and Germany; (5) career goal: industry AI engineering, which matches the 18-month job-search route.",
+              "Avoid: generic praise of Germany, copy-pasted text, exaggeration, and mentioning visa or immigration as your motive.",
+              "Some universities (e.g. TUM) cap length or ask for a separate essay. Follow the prompt exactly."
+            ],
+            "cost": "Free",
+            "time": "1-2 weeks for the master version; 1-2 days per tailoring",
+            "url": "https://www.study-in-germany.de/en/plan-your-studies/requirements/",
+            "verified": false
+          },
+          {
+            "title": "CV (tabular Lebenslauf / Europass style)",
+            "detail": [
+              "Tabular, reverse chronological, 1-2 pages, with exact month/year dates and NO gaps (explain any gap, e.g. 'job search' or 'FYP').",
+              "Header: name, nationality, date of birth (common in Germany but optional), email, phone, LinkedIn, GitHub. A photo is optional; no CNIC number, no religion.",
+              "Sections: Education (with grade and German-converted grade), Work experience (bullet results), Projects/Publications, Skills (Python, PyTorch, LangChain, MCP...), Languages (English: C1, MOI; German: A0/A1 if you start), Certificates.",
+              "Sign and date the CV (place, date, signature) for the visa file; the Karachi checklist lists a CV."
+            ],
+            "cost": "Free",
+            "time": "2-3 days",
+            "url": "https://europa.eu/europass/en/create-europass-cv",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "heading": "7. University portals and submission",
+        "when": "Dec 2026-May 2027 (per deadline)",
+        "steps": [
+          {
+            "title": "Apply in each university's own portal (direct or after VPD)",
+            "detail": [
+              "Typical portals: TUCaN (TU Darmstadt), PULS (Uni Potsdam), campo/HISinOne (many universities, e.g. FAU, Uni Freiburg), TUMonline (TUM), RWTHonline (RWTH), Moses/TU Berlin portal, Almaweb (Leipzig), selma (TU Dresden).",
+              "Create an applicant account, choose 'Master', the programme and Winter Semester 2027/28, fill in your education history, then upload: transcript, degree, HEC e-attestation, MOI letter, CV, motivation letter, LoRs, passport, the VPD (if a VPD university), and any module descriptions or course-content list (prepare a FAST course-description PDF; selective programmes check ECTS per area).",
+              "Some portals require 'submitting' a final PDF summary and/or posting a signed application form. Read the last step.",
+              "Track statuses weekly; respond within the deadline to any 'documents missing' email.",
+              "Aptitude assessment (Eignungsfeststellung) at TUM/RWTH/KIT may include a short interview by video. Prepare a 2-minute research/project pitch."
+            ],
+            "cost": "Mostly free for direct portals; some universities charge their own fee (e.g. EUR 50-75)",
+            "time": "Decisions usually 4-12 weeks after the deadline (often Apr-Jul 2027)",
+            "url": "https://www.study-in-germany.de/en/plan-your-studies/application/",
+            "verified": false
+          }
+        ]
+      },
+      {
+        "heading": "8. Admission letter and acceptance",
+        "when": "Apr-Jul 2027",
+        "steps": [
+          {
+            "title": "Accept the offer and get documents for the visa",
+            "detail": [
+              "Read the Zulassungsbescheid (admission letter): enrolment deadline, any conditions (e.g. the original degree must be shown at enrolment), and whether you must accept online by a date.",
+              "Accept or 'enrol online' (Online-Immatrikulationsantrag) by the stated deadline. Many universities let you apply for enrolment from abroad and issue an enrolment certificate after you pay the semester contribution (Semesterbeitrag, about EUR 150-400, which usually includes the Deutschlandsemesterticket).",
+              "If the semester has already started when you get the visa, the consulate needs an enrolment certificate plus a letter allowing late arrival (Islamabad checklist rule).",
+              "Ask the international office for a 'letter for visa purposes' if your admission letter is conditional.",
+              "You may accept several offers but enrol in only one; decline the rest to free seats."
+            ],
+            "cost": "Semester contribution about EUR 150-400 (paid on enrolment); tuition EUR 0 at most public universities (Baden-Wuerttemberg: EUR 1,500/semester for non-EU; TUM: tuition for non-EU from WS 2024/25)",
+            "time": "1-2 weeks",
+            "url": "https://www.study-in-germany.de/en/plan-your-studies/requirements/admission-letter/",
+            "verified": false
+          }
+        ]
+      },
+      {
+        "heading": "9. Blocked account (Sperrkonto) and funding it from Pakistan",
+        "when": "Open it as soon as the first admission arrives (Apr-Jun 2027); you can open it even before admission",
+        "steps": [
+          {
+            "title": "Choose a provider",
+            "detail": [
+              "Amount: EUR 11,904 for 12 months (EUR 992/month released) in 2026, set by the Federal Foreign Office (BAfoeG-linked). Check the amount again in 2027, because it can be raised; budget about EUR 12,000-12,500 to be safe.",
+              "Expatrio: EUR 119 setup + EUR 9/month (new pricing from 7 Jul 2026) + EUR 100 buffer, returned with the last payout. Has a 'Value Package' (blocked account + incoming insurance) with setup-fee cashback once you activate in Germany. Fast Sperrbestaetigung (often 1-3 days after the funds arrive).",
+              "Fintiba: EUR 159 setup + EUR 9.90/month (for accounts opened since 3 Nov 2025) + EUR 100 buffer. 'Fintiba Plus' bundles health insurance. Widely accepted by German missions.",
+              "Coracle: reported as paused for new blocked accounts since Aug 2025, so check coracle.de; do not rely on it.",
+              "Both Expatrio and Fintiba are on the Federal Foreign Office's list of accepted providers. Prefer the cheaper total cost: over 12 months, Expatrio is about EUR 227 and Fintiba about EUR 278 (excluding the refundable buffer)."
+            ],
+            "cost": "About EUR 227 (Expatrio) or EUR 278 (Fintiba) for year 1 in fees, + EUR 100 refundable buffer",
+            "time": "Account opening 1-3 days",
+            "url": "https://pakistan.diplo.de/pk-en/service/1995528-1995528",
+            "verified": false
+          },
+          {
+            "title": "Transfer the money from a Pakistani bank (SBP rules)",
+            "detail": [
+              "Open the account online with your passport. You get German IBAN details plus a transfer reference; print the provider's 'transfer instruction' letter.",
+              "Go to the foreign-trade/FX desk of an Authorized Dealer bank branch (HBL, MCB, UBL, Meezan, Bank Alfalah...). Use a branch with a 'Studies Abroad' desk; a big Karachi branch (e.g. I.I. Chundrigar Road) is easiest.",
+              "Under State Bank of Pakistan FE rules, banks may remit education expenses (fees + living costs) for a student up to USD 70,000 per student per calendar year, and release up to USD 5,000 cash for initial expenses (endorsed on the passport). Confirm the current SBP circular limits with the bank.",
+              "Typical documents: the bank's studies-abroad remittance application form (often called the Form R / foreign remittance application; the form name varies by bank), the student's passport and CNIC, the remitter's (parent's) CNIC if a parent pays, the admission letter or university letter, and the blocked-account provider's confirmation/IBAN letter stating the purpose 'blocked account for student visa'. Some banks also ask for the visa appointment letter.",
+              "The rupee funds are converted to EUR at the bank rate; ask for an 'OUR' SWIFT transfer so the full EUR 11,904 + buffer + fees arrives. Send about EUR 50-100 extra to cover correspondent charges; any excess comes back with payouts.",
+              "Keep the bank's SWIFT copy (MT103) and the encashment certificate."
+            ],
+            "cost": "PKR equivalent of about EUR 12,150 (about Rs 38.9 lakh at Rs 320) + bank charges (about Rs 5,000-15,000)",
+            "time": "SWIFT 3-10 working days; blocking confirmation (Sperrbestaetigung) 1-5 days after the funds arrive",
+            "url": "https://www.sbp.org.pk/",
+            "verified": false
+          }
+        ]
+      },
+      {
+        "heading": "10. Health insurance",
+        "when": "Buy incoming cover before the visa appointment (May-Jul 2027); public insurance on enrolment (Oct 2027)",
+        "steps": [
+          {
+            "title": "Incoming/travel health insurance for the visa",
+            "detail": [
+              "The consulate requires travel health insurance valid from the intended travel date until your German statutory (or private) student insurance starts. Cover of at least 6 months can help you get a longer visa (the visa is usually issued for 3-6 months, or up to 1 year).",
+              "Options: the incoming plan in the Expatrio/Fintiba bundle, or incoming providers such as DR-WALTER (EDUCARE24), Care Concept or MAWISTA Student. Choose a plan covering at least EUR 30,000 and Schengen-wide, with no deductible if possible.",
+              "Print the certificate in English, showing your name, passport number, cover dates and the 'meets Schengen visa requirements' line."
+            ],
+            "cost": "About EUR 30-40 per month (about EUR 100-250 for 3-6 months)",
+            "time": "Instant online",
+            "url": "https://pakistan.diplo.de/resource/blob/2208710/4a44b499964d27c04ecb6e5770fdb824/study-visa---leaflet-data.pdf",
+            "verified": true
+          },
+          {
+            "title": "Public student health insurance (TK, AOK, Barmer...) for enrolment",
+            "detail": [
+              "Students under 30 can join a statutory insurer (gesetzliche Krankenversicherung) at the student rate; it is required for enrolment.",
+              "From 1 Jan 2026, TK charges 10.22% health (EUR 87.38) + TK supplementary 2.69% (EUR 23.00) + long-term care 4.2% for those 23+ without children (EUR 35.91) = about EUR 146.29/month. AOK/Barmer are similar (about EUR 140-150).",
+              "Apply online (TK, AOK or Barmer English sign-up) about 2-4 weeks before arrival or on arrival. The insurer sends your enrolment proof electronically to the university (the M10 report), so give your insurer the university name.",
+              "Cancel the incoming plan from the start date of the public insurance (most incoming plans refund unused months)."
+            ],
+            "cost": "About EUR 146/month (TK 2026, age 23+)",
+            "time": "1-3 days",
+            "url": "https://www.tk.de/en/become-a-member/join-tk/contribution-rate-2034364",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "heading": "11. German student visa (Section 16b AufenthG) via the Consular Services Portal - Karachi",
+        "when": "Register as soon as you have an admission letter (ideally May-Jun 2027); waits can be long",
+        "steps": [
+          {
+            "title": "Register on the Consular Services Portal (CSP)",
+            "detail": [
+              "The CSP is active for the Consulate General Karachi, which covers residents of Sindh and Balochistan (you). Islamabad covers ICT, Punjab, KP, GB and AJK.",
+              "Go to digital.diplo.de, create a BundID/portal account, start 'Visa for study purposes (Master)' and choose Karachi as the mission.",
+              "Answer the interactive questionnaire; the required document list is generated from your answers.",
+              "Upload well-readable A4 PDFs in order. Known glitch: some mandatory documents show as 'optional'. You MUST upload past degree certificates, degree transcripts and (if applicable) proof of tuition payment from the outset, or your registration stays halted.",
+              "After pre-screening you receive either a notification of your appointment or a request for further/corrected documents. Do not send repeated inquiries; incomplete files are delayed."
+            ],
+            "cost": "Free to register",
+            "time": "Pre-screening and appointment wait: weeks to several months (third-party reports range from about 4-12 weeks to much longer at peak). Register immediately after admission.",
+            "url": "https://pakistan.diplo.de/pk-en/service/2-study-visa-seite-1676104",
+            "verified": true
+          },
+          {
+            "title": "Document checklist (upload + bring originals to the appointment)",
+            "detail": [
+              "1) National visa application (completed in the portal) + 1 biometric photo, 35x45 mm.",
+              "2) Passport valid at least 1 year + 3 months beyond the planned travel date; copies of the data pages; CNIC copy.",
+              "3) The signed declarations (Sections 54 and 55 Residence Act) generated by the portal.",
+              "4) Appointment confirmation printout.",
+              "5) Letter of admission (Zulassungsbescheid); an enrolment certificate if the semester has already started or the letter sets an enrolment deadline.",
+              "6) Proof of financial means: the blocked account confirmation (Sperrbestaetigung) for EUR 11,904 (2026 amount), or a scholarship award letter, or a Verpflichtungserklaerung (formal obligation letter).",
+              "7) Proof of English for the course of instruction: the MOI letter, plus the university's statement accepting it (often in the admission letter).",
+              "8) BS degree + transcripts + HEC e-attestation; Matric/Inter certificates if requested; experience letters.",
+              "9) CV (signed) and motivation letter (the Karachi checklist lists both).",
+              "10) Travel health insurance valid from the travel date.",
+              "11) Proof of tuition payment (if your programme charges tuition, e.g. TUM or Baden-Wuerttemberg).",
+              "12) Previous visas and any refusal letters, with an explanation.",
+              "Bring originals plus one copy of everything to the appointment, sorted in this order."
+            ],
+            "cost": "-",
+            "time": "-",
+            "url": "https://pakistan.diplo.de/resource/blob/2208710/4a44b499964d27c04ecb6e5770fdb824/study-visa---leaflet-data.pdf",
+            "verified": true
+          },
+          {
+            "title": "Appointment, fee, interview and biometrics",
+            "detail": [
+              "Visa fee: EUR 75, paid in PKR at the current consular rate (about Rs 24,000). Some guides report cash only in Karachi and an extra service-provider fee (about EUR 38) if processed via VFS. Confirm in your appointment email.",
+              "At the appointment (Consulate General Karachi, Clifton/Kehkashan area; bring the printed confirmation), staff verify originals, take fingerprints and a photo, collect the fee, and hold a short interview.",
+              "Commonly reported questions: Why this programme/university? Why Germany and not Pakistan or the UK? What modules will you study? How is your study financed? Who funded the blocked account? What did you do at your current job? What will you do after graduation? Where will you live? Answer consistently with your motivation letter, and be honest that you plan to work in Germany after graduating and later return (legal under the 18-month rule).",
+              "The consulate may forward the file to the local Ausländerbehörde in your university city for approval (this adds weeks, the 'silent approval' period)."
+            ],
+            "cost": "EUR 75 in PKR (+ possible service fee)",
+            "time": "Decision usually 2-8 weeks after the appointment (reports vary)",
+            "url": "https://digital.diplo.de/",
+            "verified": false
+          },
+          {
+            "title": "Passport return and the visa sticker",
+            "detail": [
+              "When a decision is made you get an email. You either hand in the passport for visa printing or collect it, as instructed by the consulate/service provider.",
+              "Check the visa sticker: type D, 'Studium Paragraph 16b', validity dates (often 3-6 months; it must cover your entry), number of entries, your name and passport number.",
+              "If there are errors, report them before leaving the counter."
+            ],
+            "cost": "Courier return fee if offered (about Rs 1,000-2,000)",
+            "time": "A few days",
+            "url": "https://pakistan.diplo.de/pk-en/service/2-study-visa-seite-1676104",
+            "verified": false
+          }
+        ]
+      },
+      {
+        "heading": "12. Accommodation",
+        "when": "Apply for a dorm the moment you are admitted (Apr-Jun 2027); look privately from Jul 2027",
+        "steps": [
+          {
+            "title": "Studierendenwerk (student union) halls",
+            "detail": [
+              "Find the Studierendenwerk of your city (e.g. Studierendenwerk Darmstadt, Potsdam, Berlin) and apply online. Many accept applications before enrolment with the admission letter. Waiting lists of 3-12 months are common in Munich, Berlin, Frankfurt and Darmstadt.",
+              "Rent is about EUR 250-450/month warm. A deposit of about EUR 300-900 is usually transferred from abroad, so plan a Wise/remittance route.",
+              "Also check university-specific halls, international office 'housing service' packages, and private halls (e.g. The Fizz, Smartments, Youniq; more expensive at EUR 600-900)."
+            ],
+            "cost": "EUR 250-450/month + deposit",
+            "time": "Waiting list 1-12 months",
+            "url": "https://www.studierendenwerke.de/",
+            "verified": false
+          },
+          {
+            "title": "Private rooms: WG-Gesucht and alternatives, with scam warnings",
+            "detail": [
+              "Portals: wg-gesucht.de (shared flats, WGs), ImmobilienScout24, Kleinanzeigen, HousingAnywhere and Wunderflats (furnished, temporary; pricier but scam-protected), plus Facebook groups for your city.",
+              "Write short German/English messages with a personal intro; landlords receive 100+ messages.",
+              "SCAM RED FLAGS: the landlord is 'abroad' and will send keys after payment; asks for a deposit/rent by Western Union, Wise to a private person or crypto before a viewing or contract; the price is far below market; the ID/passport scan is sent as 'proof'; the 'Airbnb' payment link comes by email. Never pay before a video viewing plus a written contract and a landlord identity check.",
+              "For the Anmeldung you need a Wohnungsgeberbestaetigung (landlord confirmation). Ensure a sublet (Zwischenmiete) offer includes it.",
+              "Temporary fall-back: a hostel or Airbnb for the first 2-4 weeks (but Airbnb often cannot give the Wohnungsgeberbestaetigung)."
+            ],
+            "cost": "EUR 400-750/month (city dependent)",
+            "time": "2-8 weeks of searching",
+            "url": "https://www.wg-gesucht.de/en/",
+            "verified": false
+          }
+        ]
+      },
+      {
+        "heading": "13. Flights and what to carry",
+        "when": "Book after the visa is issued (Aug-Sep 2027); arrive 2-4 weeks before lectures",
+        "steps": [
+          {
+            "title": "Book a flight Karachi to Germany",
+            "detail": [
+              "Typical routes: KHI-DXB/DOH/IST-FRA/MUC/BER on Emirates, Qatar, Turkish or flydubai+partner, or PIA if it is flying to Europe. Student fares often allow 2x23 kg or 40 kg.",
+              "Arrive ideally late September 2027 for orientation weeks and before housing deadlines; lectures in WS usually start mid-October.",
+              "Buy with a card from the bank where you keep PKR; keep the e-ticket printout for immigration."
+            ],
+            "cost": "About Rs 180,000-300,000 one way (approximate)",
+            "time": "Book 4-8 weeks ahead",
+            "url": "https://www.germany.info/",
+            "verified": false
+          },
+          {
+            "title": "What to carry (hand luggage!)",
+            "detail": [
+              "In hand luggage: passport with visa, admission/enrolment letter, blocked account confirmation, insurance certificate, housing contract/landlord confirmation, ORIGINAL degree + transcripts + HEC attestation + MOI letter (needed for enrolment), biometric photos (6-8), CNIC, vaccination card, prescriptions with English letter for medicines.",
+              "Money: about EUR 300-500 cash plus a working international debit card. The first blocked-account payout takes about 2-4 weeks after you activate it with a German bank account. Under SBP rules, cash up to USD 5,000 for students can be endorsed on the passport by the bank; customs declaration is needed above EUR 10,000.",
+              "Useful: a laptop, a universal EU plug adapter (Type C/F), warm clothes (or buy them in Germany; October is about 8-15 C), and spices (allowed if packaged). No meat or dairy products from outside the EU (prohibited)."
+            ],
+            "cost": "-",
+            "time": "-",
+            "url": "https://www.zoll.de/EN/Private-individuals/Travel/travel_node.html",
+            "verified": false
+          }
+        ]
+      },
+      {
+        "heading": "14. After arrival (first 2-6 weeks)",
+        "when": "Late Sep-Nov 2027",
+        "steps": [
+          {
+            "title": "Anmeldung (register address) at the Buergeramt",
+            "detail": [
+              "Legally required within 14 days of moving in. Book an appointment online at the city's Buergeramt/Buergerbuero (Berlin: service.berlin.de; book early, as slots run out).",
+              "Bring: passport, the Wohnungsgeberbestaetigung signed by the landlord, and the filled registration form (Anmeldeformular).",
+              "You get the Meldebescheinigung on the spot. It is needed for the bank, the residence permit and the tax ID."
+            ],
+            "cost": "Free",
+            "time": "Appointment wait days to 3 weeks; 15 minutes at the counter",
+            "url": "https://service.berlin.de/dienstleistung/120686/en/",
+            "verified": false
+          },
+          {
+            "title": "Open a German bank account and activate the blocked account",
+            "detail": [
+              "Options: a free online bank (N26, bunq, C24, ING, DKB) with passport video-ID, or a branch bank (Sparkasse, Deutsche Bank student account). Some need the Meldebescheinigung; the providers' partner accounts (Expatrio/Fintiba) can be opened before arrival.",
+              "Enter the German IBAN in the blocked-account dashboard and upload your address/enrolment proof to activate the monthly EUR 992 payouts."
+            ],
+            "cost": "EUR 0-5/month",
+            "time": "1-7 days",
+            "url": "https://www.bafin.de/EN/Verbraucher/verbraucher_node_en.html",
+            "verified": false
+          },
+          {
+            "title": "Enrolment (Immatrikulation)",
+            "detail": [
+              "Complete online enrolment, then attend in person if required: show the original degree/transcripts and passport, the health insurance confirmation (sent electronically by the insurer), and payment of the Semesterbeitrag.",
+              "You receive the student ID card, an enrolment certificate (Immatrikulationsbescheinigung) and the Deutschlandsemesterticket for regional/local transport."
+            ],
+            "cost": "Semester contribution about EUR 150-400",
+            "time": "1-3 days",
+            "url": "https://www.study-in-germany.de/en/plan-your-studies/requirements/enrolment/",
+            "verified": false
+          },
+          {
+            "title": "Residence permit for study at the Auslaenderbehoerde",
+            "detail": [
+              "Apply before your national visa expires; book as soon as you have the Meldebescheinigung and enrolment certificate. Many offices (e.g. Berlin LEA, Munich KVR) use online booking or online applications and are backlogged; email them early. The application itself keeps your status lawful (Fiktionsbescheinigung) if the visa expires while waiting.",
+              "Bring: passport, biometric photo, filled application form, Meldebescheinigung, enrolment certificate, proof of health insurance, proof of finances (blocked account statement), rental contract.",
+              "The permit (Section 16b, eAT card) is usually issued for 1-2 years. The card is produced by the Bundesdruckerei in 4-8 weeks."
+            ],
+            "cost": "About EUR 100 (residence permit fee; may vary)",
+            "time": "Appointment 2-12 weeks; card 4-8 weeks",
+            "url": "https://www.make-it-in-germany.com/en/visa-residence/procedure/entry-process",
+            "verified": false
+          },
+          {
+            "title": "Tax ID (Steuer-ID) and SIM card",
+            "detail": [
+              "The tax ID (Steuerliche Identifikationsnummer) is posted to your registered address automatically about 2-4 weeks after Anmeldung. If it is lost, request it on the BZSt website form. Needed by any employer.",
+              "SIM: a prepaid card from Aldi Talk, Lidl Connect, Congstar or Telekom/Vodafone/O2 prepaid (EUR 8-15/month). Legally requires ID verification (passport via video-ident or in-store). Buy at the airport or a supermarket in week 1; get an eSIM before flying if you want data on arrival."
+            ],
+            "cost": "Tax ID free; SIM EUR 8-15/month",
+            "time": "Tax ID 2-4 weeks; SIM same day",
+            "url": "https://www.bzst.de/EN/Private_individuals/Tax_identification_number/tax_identification_number_node.html",
+            "verified": false
+          }
+        ]
+      },
+      {
+        "heading": "15. Part-time work: Werkstudent and HiWi",
+        "when": "From semester 1 (realistically from month 2-3)",
+        "steps": [
+          {
+            "title": "Know the work limits",
+            "detail": [
+              "Non-EU students may work 140 full days or 280 half days per calendar year (raised from 120/240 in 2024). A day of more than 4 hours counts as a full day.",
+              "During lecture periods, more than 20 hours/week would endanger student status and the Werkstudent social-insurance privilege; full time is fine in semester breaks.",
+              "Student assistant jobs at the university (HiWi/SHK/WHK) are often treated as not counting toward the 140-day cap, but confirm with your Auslaenderbehoerde.",
+              "Self-employment/freelancing needs separate permission from the Auslaenderbehoerde."
+            ],
+            "cost": "-",
+            "time": "-",
+            "url": "https://www.make-it-in-germany.com/en/study-vocational-training/studies-in-germany/work",
+            "verified": false
+          },
+          {
+            "title": "Find Werkstudent and HiWi jobs (AI/ML)",
+            "detail": [
+              "Portals: LinkedIn Jobs (filter 'Werkstudent' + 'English'), StepStone, Indeed.de, Xing, Glassdoor, Stellenwerk (university job boards in Berlin/Hamburg/Darmstadt...), Arbeitsagentur Jobboerse, berlinstartupjobs.com, englishjobs.de, the university career centre portal, and chair/lab websites for HiWi posts (email the PhD researchers directly with your CV and GitHub).",
+              "Pay: Werkstudent in AI/software EUR 15-22/hour (about EUR 1,200-1,700/month at 20h); HiWi about EUR 13-16/hour with a bachelor's degree.",
+              "German CV conventions: tabular, 1-2 pages, reverse chronological, exact dates, a photo is optional, signed cover letter (Anschreiben) of 1 page addressed to a named person, and attach references (Arbeitszeugnisse/experience letters) as one PDF. Put your visa status ('student residence permit, may work 20 h/week') and availability from a start date.",
+              "English-only roles exist mostly at startups/scale-ups in Berlin and Munich and at big tech. A1-B1 German greatly expands the options; start Goethe/VHS classes in semester 1."
+            ],
+            "cost": "Free",
+            "time": "Typically 1-3 months of applying",
+            "url": "https://www.arbeitsagentur.de/jobsuche/",
+            "verified": false
+          }
+        ]
+      },
+      {
+        "heading": "16. After graduating: 18-month job search permit, then the EU Blue Card",
+        "when": "About Sep 2029 onwards (2-year MSc)",
+        "steps": [
+          {
+            "title": "Residence permit to seek employment after graduation (Section 20(3) No. 1 AufenthG, up to 18 months)",
+            "detail": [
+              "Apply at your Auslaenderbehoerde BEFORE the student residence permit expires, ideally as soon as the university certifies your final exam in writing (that date ends your studies; keep the letter/envelope).",
+              "Documents: passport, biometric photo, application form, graduation certificate or a university letter confirming completion, proof of health insurance (from now on not the student rate; about EUR 230-260/month voluntary public insurance), proof of livelihood (savings/blocked account top-up or job income, about the BAfoeG-based amount per month), Meldebescheinigung, rental contract.",
+              "Validity: up to 18 months, directly following studies; it can be extended up to 18 months total but not beyond.",
+              "During the 18 months you may work in any job (full time allowed) to support yourself while you search for qualified work.",
+              "Once you have a qualified job offer, apply to switch to the EU Blue Card or a skilled-worker permit (Section 18b) without leaving Germany."
+            ],
+            "cost": "About EUR 100 permit fee",
+            "time": "Appointment 2-12 weeks; card 4-8 weeks",
+            "url": "https://stadt.muenchen.de/service/en-GB/info/hauptabteilung-ii-buergerangelegenheiten/10400883/",
+            "verified": true
+          },
+          {
+            "title": "EU Blue Card (Section 18g AufenthG)",
+            "detail": [
+              "Requirements: a German or recognised degree (your German MSc qualifies) and a job offer or contract of at least 6 months, at a salary above the threshold.",
+              "2026 thresholds: EUR 50,700 gross/year standard; EUR 45,934.20 reduced for shortage occupations (including IT/maths/engineering, i.e. software/AI roles) and for recent graduates (degree within the last 3 years). These are updated every 1 January, so check the 2029 figures.",
+              "Apply at the Auslaenderbehoerde with: passport, contract/offer, job description form ('Erklaerung zum Beschaeftigungsverhaeltnis' signed by the employer), degree certificate, Meldebescheinigung and health insurance. The Federal Employment Agency's approval is usually not needed above the standard threshold.",
+              "Issued for up to 4 years (or contract length + 3 months). Settlement permit (permanent residence) after 27 months of Blue Card employment with A1 German, or 21 months with B1 German.",
+              "Job change in the first 12 months: notify the Auslaenderbehoerde; it can object within 30 days.",
+              "For your 'earn then return' plan: the Blue Card allows absences of up to 12 months outside the EU, and permanent residence can lapse if you leave for more than 6 months. Plan your returns accordingly."
+            ],
+            "cost": "About EUR 100 permit fee",
+            "time": "2-12 weeks",
+            "url": "https://www.bamf.de/EN/Themen/MigrationAufenthalt/ZuwandererDrittstaaten/Migrathek/BlaueKarteEU/blauekarteeu-node.html",
+            "verified": false
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "Start the HEC e-attestation now (Oct 2026). It depends on FAST confirming your degree in the HEC system, which can stall; chase the FAST registrar.",
+      "Make one master PDF folder: passport, degree, transcript, HEC e-certificate, MOI letter, CV, motivation letter, experience letters. Use clear file names (Surname_Transcript.pdf); reuse for uni-assist, portals and the CSP.",
+      "Ask every programme in writing (email the admissions office) whether a FAST MOI letter is accepted, and save the reply. Upload it with your visa application if the admission letter does not mention language.",
+      "Apply to 6-10 programmes across uni-assist and direct portals. With EUR 75 + EUR 30 x (n-1) via uni-assist, 6 uni-assist applications cost EUR 225.",
+      "Open the blocked account and register on the Consular Services Portal the same week you get your first admission. Visa waits, not admissions, are the real bottleneck.",
+      "Enable international e-commerce on your Pakistani debit/credit card and test it with a small purchase before paying uni-assist.",
+      "Choose cheaper cities (Leipzig, Dresden, Chemnitz, Magdeburg, Potsdam, Darmstadt halls) to keep within EUR 992/month.",
+      "Learn German to A2/B1 during the master's: it shortens permanent residence (21 vs 27 months) and doubles your Werkstudent options.",
+      "Keep every payslip, Arbeitszeugnis and the university's final exam letter. They matter for the 18-month permit and the Blue Card.",
+      "Use the official FAQ/mission pages only; uni-assist and German missions never use agents."
+    ],
+    "pitfalls": [
+      "Leaving 'optional' fields empty in the CSP: degree certificates, transcripts and tuition proof are mandatory even if marked optional, and the registration stays halted otherwise.",
+      "Paying for MOFA apostilles 'for Germany': Germany reportedly objected to Pakistan's accession to the Apostille Convention, and universities do not need them. Get them only if asked.",
+      "Trying a MOFA walk-in: since 27 July 2026, apostille requires prior online registration, and the portal has been intermittently suspended. Check the status first.",
+      "Missing that some universities need uni-assist certified hard copies by post (check each university's entry), or that VPD universities want the VPD uploaded in their own portal before the deadline.",
+      "Applying to programmes that insist on IELTS/TOEFL despite an MOI letter (common at TUM/RWTH), and losing fees.",
+      "Under-funding the blocked account: SWIFT charges deducted en route leave you below EUR 11,904 and the confirmation will not issue. Send it with OUR charges plus a margin.",
+      "Assuming the blocked amount stays EUR 11,904 in 2027. Re-check before transferring.",
+      "Housing scams on WG-Gesucht/Facebook: never pay before a viewing and a contract; avoid Western Union and crypto payments.",
+      "Forgetting the Anmeldung within 14 days, or booking the Auslaenderbehoerde too late so the entry visa expires (apply before it ends).",
+      "Working more than 20 h/week during lectures or exceeding 140 full days. This can cost your residence permit.",
+      "Letting the student permit expire before applying for the 18-month job-search permit. Apply as soon as the final exam is certified.",
+      "Using the old Karachi 'sealed envelope at the gate' process from outdated blogs; Karachi now uses the Consular Services Portal."
+    ]
+  }
+]

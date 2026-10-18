@@ -8,6 +8,9 @@ export default function Germany() {
       title="Germany plan"
       intro="Tuition-free public universities and an English-taught 2-year master's (some take 1.5 years), paid for with a blocked account in year 1 and a working-student job in year 2."
     >
+      <Link href="/germany/steps" className="block bg-accent-soft text-accent rounded-xl px-5 py-3 font-medium">
+        Exact step-by-step guide (17 stages: HEC, uni-assist, blocked account, Karachi visa, arrival, jobs, Blue Card) + German scholarships →
+      </Link>
       <div className="grid md:grid-cols-2 gap-4">
         <Card title="Blocked account">
           <ul className="space-y-3 text-sm">

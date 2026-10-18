@@ -26,6 +26,19 @@ export default function Home() {
         </Card>
       </div>
 
+      <Card title="New from the deep research">
+        <div className="grid md:grid-cols-2 gap-x-6 gap-y-2 text-sm">
+          <div><b>IPCVai</b> (Erasmus Mundus, computer vision + AI): MOI accepted, deadline 2 Feb 2027</div>
+          <div><b>Stipendium Hungaricum</b>: fully funded Hungary via HEC, ~15 Jan 2027</div>
+          <div><b>relAI / ELIZA</b>: German AI-school stipends for master&apos;s students (relAI accepts MOI)</div>
+          <div><b>Deutschlandstipendium</b>: €300/month, apply after admission (Darmstadt Sep–Oct, Dortmund Aug–Sep)</div>
+          <div><b>Aga Khan Foundation</b>: 50% grant / 50% loan, ~Mar 2027. <b>Rotary Global Grant</b>: US$30k+, approach Karachi clubs now</div>
+          <div><b>France</b>: €3,950/yr public tuition, €615/month visa funds; Eiffel needs a university nomination, so contact programmes now</div>
+          <div className="md:col-span-2 text-muted">Decision worth reconsidering: <b>one IELTS (7.0)</b> would unlock KAUST (full fellowship, 3 Jan 2027), MBZUAI (15 Dec), HBKU (1 Feb), Khalifa and more Erasmus programmes. The DAAD master&apos;s scholarship is <b>not</b> open to Pakistanis this cycle.</div>
+        </div>
+        <Link href="/scholarships" className="text-sm text-accent mt-3 inline-block">Browse all scholarships →</Link>
+      </Card>
+
       <div className="grid md:grid-cols-5 gap-4">
         <Card title="Do this week" className="md:col-span-2">
           <Bullets items={thisWeek} />

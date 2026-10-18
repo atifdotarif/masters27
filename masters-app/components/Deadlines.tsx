@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { deadlines, Deadline, Track } from "@/lib/data";
 import { Badge } from "./ui";
 
-const trackTone: Record<Track, string> = { Germany: "blue", Erasmus: "green", Ireland: "amber", Italy: "red", Docs: "gray" };
+const trackTone: Record<Track, string> = { Germany: "blue", Erasmus: "green", Ireland: "amber", Italy: "red", Scholarship: "gray", Docs: "gray" };
 
 export default function Deadlines({ limit, items = deadlines }: { limit?: number; items?: Deadline[] }) {
   const [now, setNow] = useState<Date | null>(null);
